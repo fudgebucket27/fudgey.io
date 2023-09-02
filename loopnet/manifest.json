@@ -1,0 +1,342 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/john/source/repos/loopnetdocs/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Helpers.LoopNetConstantsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Helpers.LoopNetConstantsHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Helpers.LoopNetUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Helpers.LoopNetUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.CounterFactualNft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.CounterFactualNft.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.CounterFactualNftInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.CounterFactualNftInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.TransferTokenRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.TransferTokenRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.AccountInformationResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.AccountInformationResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.ApiKeyResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.ApiKeyResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.GetNftCollectionInfoResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.GetNftCollectionInfoResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.MarketData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.MarketData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.MarketsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.MarketsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.NftCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.NftCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.OffchainFee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.OffchainFee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.OffchainFeeResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.OffchainFeeResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.PostNftMintResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.PostNftMintResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.PublicKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.PublicKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.StorageIdResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.StorageIdResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.TickersResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.TickersResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.TransferTokenResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.TransferTokenResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Services.ILoopNetClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Services.ILoopNetClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Services.LoopNetClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Services.LoopNetClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

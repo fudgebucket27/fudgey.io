@@ -1,0 +1,788 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LoopNetClient
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LoopNetClient
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LoopNet.Services.LoopNetClient">
+
+
+
+  <h1 id="LoopNet_Services_LoopNetClient" data-uid="LoopNet.Services.LoopNetClient" class="text-break">
+    Class LoopNetClient
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LoopNet.html">LoopNet</a>.<a class="xref" href="LoopNet.Services.html">Services</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LoopNet.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The LoopNet Client class</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LoopNetClient : ILoopNetClient, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">LoopNetClient</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="LoopNet.Services.ILoopNetClient.html">ILoopNetClient</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LoopNet_Services_LoopNetClient_CreateLoopNetClientAsync_" data-uid="LoopNet.Services.LoopNetClient.CreateLoopNetClientAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_CreateLoopNetClientAsync_System_String_System_String_System_Boolean_" data-uid="LoopNet.Services.LoopNetClient.CreateLoopNetClientAsync(System.String,System.String,System.Boolean)">
+  CreateLoopNetClientAsync(string, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates an instance of the LoopNet client. This will also generate the Loopring L2 Private Key and retrieve the Loopring API Key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;LoopNetClient&gt; CreateLoopNetClientAsync(string l1PrivateKey, string ethAddress, bool showConnectionInfo = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>l1PrivateKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The L1 Private Key</p>
+</dd>
+    <dt><code>ethAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The Eth address associated with the L1 Private Key in Ox format</p>
+</dd>
+    <dt><code>showConnectionInfo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Indicates whether to display the connection info. Optional, defaults to false.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Services.LoopNetClient.html">LoopNetClient</a>&gt;</dt>
+    <dd><p>A LoopNetClient</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_Dispose_" data-uid="LoopNet.Services.LoopNetClient.Dispose*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_Dispose" data-uid="LoopNet.Services.LoopNetClient.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_GetAccountInformationAsync_" data-uid="LoopNet.Services.LoopNetClient.GetAccountInformationAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetAccountInformationAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetAccountInformationAsync(System.String)">
+  GetAccountInformationAsync(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets account information</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;AccountInformationResponse?&gt; GetAccountInformationAsync(string owner)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>owner</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The address to retrieve account information from</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.AccountInformationResponse.html">AccountInformationResponse</a>&gt;</dt>
+    <dd><p>The account information</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, most likey the address does not exist on Loopring</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_GetCounterFactualNftTokenAddressAsync_" data-uid="LoopNet.Services.LoopNetClient.GetCounterFactualNftTokenAddressAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetCounterFactualNftTokenAddressAsync_LoopNet_Models_Requests_CounterFactualNftInfo_" data-uid="LoopNet.Services.LoopNetClient.GetCounterFactualNftTokenAddressAsync(LoopNet.Models.Requests.CounterFactualNftInfo)">
+  GetCounterFactualNftTokenAddressAsync(CounterFactualNftInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the counterfactual nft token address</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;CounterFactualNft?&gt; GetCounterFactualNftTokenAddressAsync(CounterFactualNftInfo counterFactualNftInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>counterFactualNftInfo</code> <a class="xref" href="LoopNet.Models.Requests.CounterFactualNftInfo.html">CounterFactualNftInfo</a></dt>
+    <dd><p>The Counterfactual NFT info</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Requests.CounterFactualNft.html">CounterFactualNft</a>&gt;</dt>
+    <dd><p>The counterfactual nft token address</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_GetMarketsAsync_" data-uid="LoopNet.Services.LoopNetClient.GetMarketsAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetMarketsAsync" data-uid="LoopNet.Services.LoopNetClient.GetMarketsAsync">
+  GetMarketsAsync()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the markets</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MarketsResponse?&gt; GetMarketsAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.MarketsResponse.html">MarketsResponse</a>&gt;</dt>
+    <dd><p>The markets</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_GetNftCollectionInfoAsync_" data-uid="LoopNet.Services.LoopNetClient.GetNftCollectionInfoAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetNftCollectionInfoAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetNftCollectionInfoAsync(System.String)">
+  GetNftCollectionInfoAsync(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets information on an nft collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetNftCollectionInfoResponse?&gt; GetNftCollectionInfoAsync(string tokenAddress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tokenAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The token address</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.GetNftCollectionInfoResponse.html">GetNftCollectionInfoResponse</a>&gt;</dt>
+    <dd><p>The nft collection result</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_GetOffchainFeeAsync_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetOffchainFeeAsync_System_Int32_System_String_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeAsync(System.Int32,System.String,System.String)">
+  GetOffchainFeeAsync(int, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets offchain fee</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;OffchainFeeResponse?&gt; GetOffchainFeeAsync(int requestType, string feeToken, string amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The request type</p>
+</dd>
+    <dt><code>feeToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The fee token, ie LRC</p>
+</dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The amount</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.OffchainFeeResponse.html">OffchainFeeResponse</a>&gt;</dt>
+    <dd><p>The offchain fee</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, most likey the fee token or request type doest not exist</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_GetOffchainFeeNftAsync_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeNftAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetOffchainFeeNftAsync_System_Int32_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeNftAsync(System.Int32,System.String)">
+  GetOffchainFeeNftAsync(int, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the offchain fee for an nft request</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;OffchainFeeResponse?&gt; GetOffchainFeeNftAsync(int requestType, string tokenAddress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The request type</p>
+</dd>
+    <dt><code>tokenAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The token address</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.OffchainFeeResponse.html">OffchainFeeResponse</a>&gt;</dt>
+    <dd><p>The offchain fee for an nft request</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_GetStorageIdAsync_" data-uid="LoopNet.Services.LoopNetClient.GetStorageIdAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetStorageIdAsync_System_Int32_" data-uid="LoopNet.Services.LoopNetClient.GetStorageIdAsync(System.Int32)">
+  GetStorageIdAsync(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets storage id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;StorageIdResponse?&gt; GetStorageIdAsync(int sellTokenId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sellTokenId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The sell token id</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.StorageIdResponse.html">StorageIdResponse</a>&gt;</dt>
+    <dd><p>The storage id</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, most likey the sellTokenId does not exist</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_GetTickersAsync_" data-uid="LoopNet.Services.LoopNetClient.GetTickersAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetTickersAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetTickersAsync(System.String)">
+  GetTickersAsync(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets tickers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TickersResponse?&gt; GetTickersAsync(string pairs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pairs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A comma seperated list of pairs, ie: LRC-ETH,LRC-WBTC</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.TickersResponse.html">TickersResponse</a>&gt;</dt>
+    <dd><p>The tickers</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, most likey one of the pairs do not exist</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_PostLegacyMintNft_" data-uid="LoopNet.Services.LoopNetClient.PostLegacyMintNft*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_PostLegacyMintNft_System_String_System_Int32_System_Int32_System_String_System_String_" data-uid="LoopNet.Services.LoopNetClient.PostLegacyMintNft(System.String,System.Int32,System.Int32,System.String,System.String)">
+  PostLegacyMintNft(string, int, int, string, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Post the nft mint to the legacy nft factor contract</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PostNftMintResponse?&gt; PostLegacyMintNft(string ipfsMetadataJsonCidv0, int numberOfEditions, int royaltyPercentage, string tokenFeeSymbol, string? royaltyAddress = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ipfsMetadataJsonCidv0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The IPFS metadata json in CIDv0 format, ie starts with Qm</p>
+</dd>
+    <dt><code>numberOfEditions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of editions, Set to 1 for 1 edition, 2 for 2 editions and etc</p>
+</dd>
+    <dt><code>royaltyPercentage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The royalty percantage, a whole number between 0 to 10</p>
+</dd>
+    <dt><code>tokenFeeSymbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The token symbol for the fees, can be LRC or ETH</p>
+</dd>
+    <dt><code>royaltyAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The royalty address in 0x format, Optional. Only set if you want royalties go a different address than yourself</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.PostNftMintResponse.html">PostNftMintResponse</a>&gt;</dt>
+    <dd><p>The Nft Mint Response</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, such as duplicate nft mints</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_PostNftMintAsync_" data-uid="LoopNet.Services.LoopNetClient.PostNftMintAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_PostNftMintAsync_System_String_System_String_System_Int32_System_Int32_System_String_System_String_" data-uid="LoopNet.Services.LoopNetClient.PostNftMintAsync(System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
+  PostNftMintAsync(string, string, int, int, string, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Post the nft mint to the current nft factory contract</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PostNftMintResponse?&gt; PostNftMintAsync(string contractAddress, string ipfsMetadataJsonCidv0, int numberOfEditions, int royaltyPercentage, string tokenFeeSymbol, string? royaltyAddress = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contractAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The contract address of the collection in 0x format</p>
+</dd>
+    <dt><code>ipfsMetadataJsonCidv0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The IPFS metadata json in CIDv0 format, ie starts with Qm</p>
+</dd>
+    <dt><code>numberOfEditions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of editions, Set to 1 for 1 edition, 2 for 2 editions and etc</p>
+</dd>
+    <dt><code>royaltyPercentage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The royalty percantage, a whole number between 0 to 10</p>
+</dd>
+    <dt><code>tokenFeeSymbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The token symbol for the fees, can be LRC or ETH</p>
+</dd>
+    <dt><code>royaltyAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The royalty address in 0x format, Optional. Only set if you want royalties go a different address than yourself</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.PostNftMintResponse.html">PostNftMintResponse</a>&gt;</dt>
+    <dd><p>The Nft Mint Response</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, such as duplicate nft mints</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_PostTokenTransferAsync_" data-uid="LoopNet.Services.LoopNetClient.PostTokenTransferAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_PostTokenTransferAsync_System_String_System_String_System_Decimal_System_String_System_String_System_Boolean_" data-uid="LoopNet.Services.LoopNetClient.PostTokenTransferAsync(System.String,System.String,System.Decimal,System.String,System.String,System.Boolean)">
+  PostTokenTransferAsync(string, string, decimal, string, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Transfers a token to an address</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TransferTokenResponse?&gt; PostTokenTransferAsync(string toAddress, string transferTokenSymbol, decimal tokenAmount, string feeTokenSymbol, string memo, bool payAccountActivationFee = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The address to transfer the token to</p>
+</dd>
+    <dt><code>transferTokenSymbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The token symbol to transfer, Only works with ETH or LRC</p>
+</dd>
+    <dt><code>tokenAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>The amount of the transfer token to sell in decimals, ie 0.1m</p>
+</dd>
+    <dt><code>feeTokenSymbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The token symbol to pay fees in, ie Only works with ETH or LRC</p>
+</dd>
+    <dt><code>memo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The memo to send,</p>
+</dd>
+    <dt><code>payAccountActivationFee</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether you want to pay the toAddress account activation fee. Optional, Defaults to false</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.TransferTokenResponse.html">TransferTokenResponse</a>&gt;</dt>
+    <dd><p>The transfer token reponnse</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, could be due to a number of issues such as storageId, offchainFee or not having enough balance of the transfer token</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

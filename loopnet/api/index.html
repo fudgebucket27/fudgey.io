@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Getting Started </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Getting Started ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="getting-started">Getting Started</h1>
+
+<h2 id="add-to-your-project">Add to your project</h2>
+<p>You can get LoopNet from nuget. You can run the following command with the packet manager console while in Visual Studio to install it into your project.</p>
+<pre><code class="lang-bash">Install-Package LoopNet
+</code></pre>
+<h2 id="create-the-loopnet-client">Create the LoopNet client</h2>
+<p>You must create the LoopNet client. How you retrieve the L1 Private Key and Eth address is up to you, they just need to be strings to be passed as parameters into the client constructor.</p>
+<pre><code class="lang-csharp">var loopNetClient = await LoopNetClient.CreateLoopNetClientAsync(&quot;L1 Private Key&quot;, &quot;Eth Address in 0x format&quot;);
+</code></pre>
+<p>The LoopNet client will generate your Loporing Layer 2 Private Key and retrieve your Loopring API key. These are saved into the client and used automatically by any calls it has to make to the Loopring API.</p>
+<h2 id="usage">Usage</h2>
+<p>Once the client has been created you can start using it.</p>
+<pre><code class="lang-csharp">var tokenTransferResponse = await loopNetClient.PostTokenTransferAsync(&quot;0x991B6fE54d46e5e0CEEd38911cD4a8694bed386A&quot;, &quot;LRC&quot;, 0.01m, &quot;LRC&quot;, &quot;LoopNet test&quot;);
+</code></pre>
+<p>This will send 0.01 LRC to 0x991B6fE54d46e5e0CEEd38911cD4a8694bed386A with the memo 'LoopNet test', fees will be paid in LRC as well.</p>
+<p>LoopNet will throw an exception if the Loopring API returns that the request was not successful so be sure to handle them in your code.</p>
+<p>You can view all the methods the LoopNet client provides here: <a class="xref" href="LoopNet.Services.LoopNetClient.html">LoopNetClient</a></p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
