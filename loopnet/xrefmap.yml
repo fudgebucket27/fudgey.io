@@ -892,6 +892,122 @@ references:
   isSpec: "True"
   fullName: LoopNet.Models.Responses.Collections.Collection
   nameWithType: Collections.Collection
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse
+  name: CounterFactualInfoResponse
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html
+  commentId: T:LoopNet.Models.Responses.CounterFactualInfoResponse
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse
+  nameWithType: CounterFactualInfoResponse
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.AccountId
+  name: AccountId
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_AccountId
+  commentId: P:LoopNet.Models.Responses.CounterFactualInfoResponse.AccountId
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.AccountId
+  nameWithType: CounterFactualInfoResponse.AccountId
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.AccountId*
+  name: AccountId
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_AccountId_
+  commentId: Overload:LoopNet.Models.Responses.CounterFactualInfoResponse.AccountId
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.AccountId
+  nameWithType: CounterFactualInfoResponse.AccountId
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.Wallet
+  name: Wallet
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_Wallet
+  commentId: P:LoopNet.Models.Responses.CounterFactualInfoResponse.Wallet
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.Wallet
+  nameWithType: CounterFactualInfoResponse.Wallet
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.Wallet*
+  name: Wallet
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_Wallet_
+  commentId: Overload:LoopNet.Models.Responses.CounterFactualInfoResponse.Wallet
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.Wallet
+  nameWithType: CounterFactualInfoResponse.Wallet
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletFactory
+  name: WalletFactory
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_WalletFactory
+  commentId: P:LoopNet.Models.Responses.CounterFactualInfoResponse.WalletFactory
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletFactory
+  nameWithType: CounterFactualInfoResponse.WalletFactory
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletFactory*
+  name: WalletFactory
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_WalletFactory_
+  commentId: Overload:LoopNet.Models.Responses.CounterFactualInfoResponse.WalletFactory
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletFactory
+  nameWithType: CounterFactualInfoResponse.WalletFactory
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletOwner
+  name: WalletOwner
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_WalletOwner
+  commentId: P:LoopNet.Models.Responses.CounterFactualInfoResponse.WalletOwner
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletOwner
+  nameWithType: CounterFactualInfoResponse.WalletOwner
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletOwner*
+  name: WalletOwner
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_WalletOwner_
+  commentId: Overload:LoopNet.Models.Responses.CounterFactualInfoResponse.WalletOwner
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletOwner
+  nameWithType: CounterFactualInfoResponse.WalletOwner
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletSalt
+  name: WalletSalt
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_WalletSalt
+  commentId: P:LoopNet.Models.Responses.CounterFactualInfoResponse.WalletSalt
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletSalt
+  nameWithType: CounterFactualInfoResponse.WalletSalt
+- uid: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletSalt*
+  name: WalletSalt
+  href: api/LoopNet.Models.Responses.CounterFactualInfoResponse.html#LoopNet_Models_Responses_CounterFactualInfoResponse_WalletSalt_
+  commentId: Overload:LoopNet.Models.Responses.CounterFactualInfoResponse.WalletSalt
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.CounterFactualInfoResponse.WalletSalt
+  nameWithType: CounterFactualInfoResponse.WalletSalt
+- uid: LoopNet.Models.Responses.Data
+  name: Data
+  href: api/LoopNet.Models.Responses.Data.html
+  commentId: T:LoopNet.Models.Responses.Data
+  fullName: LoopNet.Models.Responses.Data
+  nameWithType: Data
+- uid: LoopNet.Models.Responses.Data.IsContract
+  name: IsContract
+  href: api/LoopNet.Models.Responses.Data.html#LoopNet_Models_Responses_Data_IsContract
+  commentId: P:LoopNet.Models.Responses.Data.IsContract
+  fullName: LoopNet.Models.Responses.Data.IsContract
+  nameWithType: Data.IsContract
+- uid: LoopNet.Models.Responses.Data.IsContract*
+  name: IsContract
+  href: api/LoopNet.Models.Responses.Data.html#LoopNet_Models_Responses_Data_IsContract_
+  commentId: Overload:LoopNet.Models.Responses.Data.IsContract
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.Data.IsContract
+  nameWithType: Data.IsContract
+- uid: LoopNet.Models.Responses.Data.IsInCounterFactualStatus
+  name: IsInCounterFactualStatus
+  href: api/LoopNet.Models.Responses.Data.html#LoopNet_Models_Responses_Data_IsInCounterFactualStatus
+  commentId: P:LoopNet.Models.Responses.Data.IsInCounterFactualStatus
+  fullName: LoopNet.Models.Responses.Data.IsInCounterFactualStatus
+  nameWithType: Data.IsInCounterFactualStatus
+- uid: LoopNet.Models.Responses.Data.IsInCounterFactualStatus*
+  name: IsInCounterFactualStatus
+  href: api/LoopNet.Models.Responses.Data.html#LoopNet_Models_Responses_Data_IsInCounterFactualStatus_
+  commentId: Overload:LoopNet.Models.Responses.Data.IsInCounterFactualStatus
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.Data.IsInCounterFactualStatus
+  nameWithType: Data.IsInCounterFactualStatus
+- uid: LoopNet.Models.Responses.Data.LoopringWalletContractVersion
+  name: LoopringWalletContractVersion
+  href: api/LoopNet.Models.Responses.Data.html#LoopNet_Models_Responses_Data_LoopringWalletContractVersion
+  commentId: P:LoopNet.Models.Responses.Data.LoopringWalletContractVersion
+  fullName: LoopNet.Models.Responses.Data.LoopringWalletContractVersion
+  nameWithType: Data.LoopringWalletContractVersion
+- uid: LoopNet.Models.Responses.Data.LoopringWalletContractVersion*
+  name: LoopringWalletContractVersion
+  href: api/LoopNet.Models.Responses.Data.html#LoopNet_Models_Responses_Data_LoopringWalletContractVersion_
+  commentId: Overload:LoopNet.Models.Responses.Data.LoopringWalletContractVersion
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.Data.LoopringWalletContractVersion
+  nameWithType: Data.LoopringWalletContractVersion
 - uid: LoopNet.Models.Responses.Datum
   name: Datum
   href: api/LoopNet.Models.Responses.Datum.html
@@ -2372,6 +2488,38 @@ references:
   isSpec: "True"
   fullName: LoopNet.Models.Responses.PublicKey.Y
   nameWithType: PublicKey.Y
+- uid: LoopNet.Models.Responses.ResultInfo
+  name: ResultInfo
+  href: api/LoopNet.Models.Responses.ResultInfo.html
+  commentId: T:LoopNet.Models.Responses.ResultInfo
+  fullName: LoopNet.Models.Responses.ResultInfo
+  nameWithType: ResultInfo
+- uid: LoopNet.Models.Responses.ResultInfo.Code
+  name: Code
+  href: api/LoopNet.Models.Responses.ResultInfo.html#LoopNet_Models_Responses_ResultInfo_Code
+  commentId: P:LoopNet.Models.Responses.ResultInfo.Code
+  fullName: LoopNet.Models.Responses.ResultInfo.Code
+  nameWithType: ResultInfo.Code
+- uid: LoopNet.Models.Responses.ResultInfo.Code*
+  name: Code
+  href: api/LoopNet.Models.Responses.ResultInfo.html#LoopNet_Models_Responses_ResultInfo_Code_
+  commentId: Overload:LoopNet.Models.Responses.ResultInfo.Code
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.ResultInfo.Code
+  nameWithType: ResultInfo.Code
+- uid: LoopNet.Models.Responses.ResultInfo.Message
+  name: Message
+  href: api/LoopNet.Models.Responses.ResultInfo.html#LoopNet_Models_Responses_ResultInfo_Message
+  commentId: P:LoopNet.Models.Responses.ResultInfo.Message
+  fullName: LoopNet.Models.Responses.ResultInfo.Message
+  nameWithType: ResultInfo.Message
+- uid: LoopNet.Models.Responses.ResultInfo.Message*
+  name: Message
+  href: api/LoopNet.Models.Responses.ResultInfo.html#LoopNet_Models_Responses_ResultInfo_Message_
+  commentId: Overload:LoopNet.Models.Responses.ResultInfo.Message
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.ResultInfo.Message
+  nameWithType: ResultInfo.Message
 - uid: LoopNet.Models.Responses.StorageIdResponse
   name: StorageIdResponse
   href: api/LoopNet.Models.Responses.StorageIdResponse.html
@@ -2539,6 +2687,38 @@ references:
   isSpec: "True"
   fullName: LoopNet.Models.Responses.TransferTokenResponse.TokenId
   nameWithType: TransferTokenResponse.TokenId
+- uid: LoopNet.Models.Responses.WalletTypeResponse
+  name: WalletTypeResponse
+  href: api/LoopNet.Models.Responses.WalletTypeResponse.html
+  commentId: T:LoopNet.Models.Responses.WalletTypeResponse
+  fullName: LoopNet.Models.Responses.WalletTypeResponse
+  nameWithType: WalletTypeResponse
+- uid: LoopNet.Models.Responses.WalletTypeResponse.Data
+  name: Data
+  href: api/LoopNet.Models.Responses.WalletTypeResponse.html#LoopNet_Models_Responses_WalletTypeResponse_Data
+  commentId: P:LoopNet.Models.Responses.WalletTypeResponse.Data
+  fullName: LoopNet.Models.Responses.WalletTypeResponse.Data
+  nameWithType: WalletTypeResponse.Data
+- uid: LoopNet.Models.Responses.WalletTypeResponse.Data*
+  name: Data
+  href: api/LoopNet.Models.Responses.WalletTypeResponse.html#LoopNet_Models_Responses_WalletTypeResponse_Data_
+  commentId: Overload:LoopNet.Models.Responses.WalletTypeResponse.Data
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.WalletTypeResponse.Data
+  nameWithType: WalletTypeResponse.Data
+- uid: LoopNet.Models.Responses.WalletTypeResponse.ResultInfo
+  name: ResultInfo
+  href: api/LoopNet.Models.Responses.WalletTypeResponse.html#LoopNet_Models_Responses_WalletTypeResponse_ResultInfo
+  commentId: P:LoopNet.Models.Responses.WalletTypeResponse.ResultInfo
+  fullName: LoopNet.Models.Responses.WalletTypeResponse.ResultInfo
+  nameWithType: WalletTypeResponse.ResultInfo
+- uid: LoopNet.Models.Responses.WalletTypeResponse.ResultInfo*
+  name: ResultInfo
+  href: api/LoopNet.Models.Responses.WalletTypeResponse.html#LoopNet_Models_Responses_WalletTypeResponse_ResultInfo_
+  commentId: Overload:LoopNet.Models.Responses.WalletTypeResponse.ResultInfo
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.WalletTypeResponse.ResultInfo
+  nameWithType: WalletTypeResponse.ResultInfo
 - uid: LoopNet.Services
   name: LoopNet.Services
   href: api/LoopNet.Services.html
@@ -2705,6 +2885,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.ILoopNetClient.GetTickersAsync
   nameWithType: ILoopNetClient.GetTickersAsync
+- uid: LoopNet.Services.ILoopNetClient.GetWalletTypeAsync(System.String)
+  name: GetWalletTypeAsync(string)
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_GetWalletTypeAsync_System_String_
+  commentId: M:LoopNet.Services.ILoopNetClient.GetWalletTypeAsync(System.String)
+  name.vb: GetWalletTypeAsync(String)
+  fullName: LoopNet.Services.ILoopNetClient.GetWalletTypeAsync(string)
+  fullName.vb: LoopNet.Services.ILoopNetClient.GetWalletTypeAsync(String)
+  nameWithType: ILoopNetClient.GetWalletTypeAsync(string)
+  nameWithType.vb: ILoopNetClient.GetWalletTypeAsync(String)
+- uid: LoopNet.Services.ILoopNetClient.GetWalletTypeAsync*
+  name: GetWalletTypeAsync
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_GetWalletTypeAsync_
+  commentId: Overload:LoopNet.Services.ILoopNetClient.GetWalletTypeAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.ILoopNetClient.GetWalletTypeAsync
+  nameWithType: ILoopNetClient.GetWalletTypeAsync
 - uid: LoopNet.Services.ILoopNetClient.PostLegacyMintNft(System.String,System.Int32,System.Int32,System.String,System.String)
   name: PostLegacyMintNft(string, int, int, string, string?)
   href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostLegacyMintNft_System_String_System_Int32_System_Int32_System_String_System_String_
@@ -2958,6 +3154,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.LoopNetClient.GetTickersAsync
   nameWithType: LoopNetClient.GetTickersAsync
+- uid: LoopNet.Services.LoopNetClient.GetWalletTypeAsync(System.String)
+  name: GetWalletTypeAsync(string)
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_GetWalletTypeAsync_System_String_
+  commentId: M:LoopNet.Services.LoopNetClient.GetWalletTypeAsync(System.String)
+  name.vb: GetWalletTypeAsync(String)
+  fullName: LoopNet.Services.LoopNetClient.GetWalletTypeAsync(string)
+  fullName.vb: LoopNet.Services.LoopNetClient.GetWalletTypeAsync(String)
+  nameWithType: LoopNetClient.GetWalletTypeAsync(string)
+  nameWithType.vb: LoopNetClient.GetWalletTypeAsync(String)
+- uid: LoopNet.Services.LoopNetClient.GetWalletTypeAsync*
+  name: GetWalletTypeAsync
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_GetWalletTypeAsync_
+  commentId: Overload:LoopNet.Services.LoopNetClient.GetWalletTypeAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.LoopNetClient.GetWalletTypeAsync
+  nameWithType: LoopNetClient.GetWalletTypeAsync
 - uid: LoopNet.Services.LoopNetClient.PostLegacyMintNft(System.String,System.Int32,System.Int32,System.String,System.String)
   name: PostLegacyMintNft(string, int, int, string, string?)
   href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostLegacyMintNft_System_String_System_Int32_System_Int32_System_String_System_String_
@@ -3022,3 +3234,9 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.LoopNetClient.PostTokenTransferAsync
   nameWithType: LoopNetClient.PostTokenTransferAsync
+- uid: LoopNet.Services.LoopNetClient._accountInformation
+  name: _accountInformation
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient__accountInformation
+  commentId: F:LoopNet.Services.LoopNetClient._accountInformation
+  fullName: LoopNet.Services.LoopNetClient._accountInformation
+  nameWithType: LoopNetClient._accountInformation

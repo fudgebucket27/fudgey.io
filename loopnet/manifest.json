@@ -145,6 +145,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.CounterFactualInfoResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.CounterFactualInfoResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.Datum.yml",
       "output": {
         ".html": {
@@ -315,6 +335,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.ResultInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.ResultInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.StorageIdResponse.yml",
       "output": {
         ".html": {
@@ -349,6 +379,16 @@
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.TransferTokenResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.WalletTypeResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.WalletTypeResponse.html"
         }
       },
       "version": ""
