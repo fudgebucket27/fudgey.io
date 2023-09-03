@@ -396,6 +396,51 @@
 
 
 
+  <a id="LoopNet_Services_LoopNetClient_GetNftTokenIdAsync_" data-uid="LoopNet.Services.LoopNetClient.GetNftTokenIdAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetNftTokenIdAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetNftTokenIdAsync(System.String)">
+  GetNftTokenIdAsync(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the NFT balance info</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;NftBalanceResponse?&gt; GetNftTokenIdAsync(string nftData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nftData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The nftData in 0x format, ie 0x2a212b36db36d229d3ee5690c7f9fe0099b53d6f05cfb0349060f4c18012a664</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.NftBalanceResponse.html">NftBalanceResponse</a>&gt;</dt>
+    <dd><p>The NFT balance info</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, possibly nftData doesnt exist in your wallet</p>
+</dd>
+  </dl>
+
+
+
   <a id="LoopNet_Services_LoopNetClient_GetOffchainFeeAsync_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeAsync*"></a>
 
   <h3 id="LoopNet_Services_LoopNetClient_GetOffchainFeeAsync_System_Int32_System_String_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeAsync(System.Int32,System.String,System.String)">
@@ -476,6 +521,54 @@
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.OffchainFeeResponse.html">OffchainFeeResponse</a>&gt;</dt>
     <dd><p>The offchain fee for an nft request</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API</p>
+</dd>
+  </dl>
+
+
+
+  <a id="LoopNet_Services_LoopNetClient_GetOffchainFeeNftTransferAsync_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeNftTransferAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetOffchainFeeNftTransferAsync_System_Int32_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeNftTransferAsync(System.Int32,System.String)">
+  GetOffchainFeeNftTransferAsync(int, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the offchain fee for an nft transfer request</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;OffchainFeeResponse?&gt; GetOffchainFeeNftTransferAsync(int requestType, string amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The request type</p>
+</dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The amount</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.OffchainFeeResponse.html">OffchainFeeResponse</a>&gt;</dt>
+    <dd><p>The offchain fee for an nft transfer request</p>
 </dd>
   </dl>
 
@@ -702,6 +795,66 @@
 
 
 
+  <a id="LoopNet_Services_LoopNetClient_PostNftTransferAsync_" data-uid="LoopNet.Services.LoopNetClient.PostNftTransferAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_PostNftTransferAsync_System_String_System_String_System_Int32_System_String_System_String_System_Boolean_" data-uid="LoopNet.Services.LoopNetClient.PostNftTransferAsync(System.String,System.String,System.Int32,System.String,System.String,System.Boolean)">
+  PostNftTransferAsync(string, string, int, string, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Transfers a nft to an address</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TransferTokenResponse?&gt; PostNftTransferAsync(string toAddress, string nftData, int amountOfEditionsToTransfer, string feeTokenSymbol, string memo, bool payAccountActivationFee = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The address to transfer the NFT to in 0x format</p>
+</dd>
+    <dt><code>nftData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The nftData in 0x format</p>
+</dd>
+    <dt><code>amountOfEditionsToTransfer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The amount of editions to transfer</p>
+</dd>
+    <dt><code>feeTokenSymbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The token symbol to pay fees in, ie Only works with ETH or LRC</p>
+</dd>
+    <dt><code>memo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The memo to send,</p>
+</dd>
+    <dt><code>payAccountActivationFee</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether you want to pay the toAddress account activation fee. Optional, Defaults to false</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.TransferTokenResponse.html">TransferTokenResponse</a>&gt;</dt>
+    <dd><p>The transfer token reponnse</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, could be due to a number of issues such as storageId, offchainFee or not having enough balance of the transfer token</p>
+</dd>
+  </dl>
+
+
+
   <a id="LoopNet_Services_LoopNetClient_PostTokenTransferAsync_" data-uid="LoopNet.Services.LoopNetClient.PostTokenTransferAsync*"></a>
 
   <h3 id="LoopNet_Services_LoopNetClient_PostTokenTransferAsync_System_String_System_String_System_Decimal_System_String_System_String_System_Boolean_" data-uid="LoopNet.Services.LoopNetClient.PostTokenTransferAsync(System.String,System.String,System.Decimal,System.String,System.String,System.Boolean)">
@@ -720,7 +873,7 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>toAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The address to transfer the token to</p>
+    <dd><p>The address to transfer the token to in 0x format</p>
 </dd>
     <dt><code>transferTokenSymbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The token symbol to transfer, Only works with ETH or LRC</p>

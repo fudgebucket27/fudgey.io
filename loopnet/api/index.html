@@ -82,7 +82,7 @@
 <p>You must create the LoopNet client. How you retrieve the L1 Private Key and Eth address is up to you, they just need to be strings to be passed as parameters into the client constructor.</p>
 <pre><code class="lang-csharp">var loopNetClient = await LoopNetClient.CreateLoopNetClientAsync(&quot;L1 Private Key&quot;, &quot;Eth Address in 0x format&quot;);
 </code></pre>
-<p>The LoopNet client will generate your Loporing Layer 2 Private Key and retrieve your Loopring API key. These are saved into the client and used automatically by any calls it has to make to the Loopring API.</p>
+<p>The LoopNet client will generate your Loopring Layer 2 Private Key and retrieve your Loopring API key. These are saved into the client and used automatically by any calls it has to make to the Loopring API.</p>
 <h2 id="usage">Usage</h2>
 <p>Once the client has been created you can start using it.</p>
 <pre><code class="lang-csharp">var tokenTransferResponse = await loopNetClient.PostTokenTransferAsync(&quot;0x991B6fE54d46e5e0CEEd38911cD4a8694bed386A&quot;, &quot;LRC&quot;, 0.01m, &quot;LRC&quot;, &quot;LoopNet test&quot;);

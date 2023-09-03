@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/john/source/repos/loopnetdocs/docfx_project",
+  "source_base_path": "C:/Users/john/source/repos/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -105,6 +105,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Cached.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Cached.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.CoinBalance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.CoinBalance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.CollectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.CollectionInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.Collections.yml",
       "output": {
         ".html": {
@@ -115,10 +145,40 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Datum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Datum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Extra.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Extra.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.GetNftCollectionInfoResponse.yml",
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.GetNftCollectionInfoResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.ImageSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.ImageSize.html"
         }
       },
       "version": ""
@@ -139,6 +199,36 @@
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.MarketsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Metadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.NftBalanceResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.NftBalanceResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.NftBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.NftBase.html"
         }
       },
       "version": ""
@@ -175,10 +265,40 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Pending.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Pending.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.PostNftMintResponse.yml",
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.PostNftMintResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Preference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Preference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Properties.html"
         }
       },
       "version": ""
@@ -209,6 +329,16 @@
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.TickersResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Times.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Times.html"
         }
       },
       "version": ""
