@@ -155,6 +155,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.CounterFactualWalletInfoResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.CounterFactualWalletInfoResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.Data.yml",
       "output": {
         ".html": {
@@ -259,6 +269,26 @@
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.NftCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.NftHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.NftHolder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.NftHoldersResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.NftHoldersResponse.html"
         }
       },
       "version": ""
