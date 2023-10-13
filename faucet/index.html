@@ -80,7 +80,7 @@
         }
 
         async function sendClaim() {
-            let receivers = redeemableNfts.map(nft => ({ Address: ethAddress, NftData: nft.NftData }));
+            let receivers = redeemableNfts.map(nft => ({ "Address" : ethAddress, "NftData": nft.nftData }));
             const response = await fetch('https://fudgeyfaucetapisite.azurewebsites.net/api/nft/claim?api-version=2.0', {
                 method: 'POST',
                 headers: {
