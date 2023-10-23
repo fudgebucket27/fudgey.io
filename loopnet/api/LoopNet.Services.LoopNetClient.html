@@ -152,9 +152,9 @@
 
   <a id="LoopNet_Services_LoopNetClient_CreateLoopNetClientAsync_" data-uid="LoopNet.Services.LoopNetClient.CreateLoopNetClientAsync*"></a>
 
-  <h3 id="LoopNet_Services_LoopNetClient_CreateLoopNetClientAsync_System_String_System_String_System_Boolean_" data-uid="LoopNet.Services.LoopNetClient.CreateLoopNetClientAsync(System.String,System.String,System.Boolean)">
-  CreateLoopNetClientAsync(string, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <h3 id="LoopNet_Services_LoopNetClient_CreateLoopNetClientAsync_System_Int32_System_String_System_String_System_Boolean_" data-uid="LoopNet.Services.LoopNetClient.CreateLoopNetClientAsync(System.Int32,System.String,System.String,System.Boolean)">
+  CreateLoopNetClientAsync(int, string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates an instance of the LoopNet client. This will also generate the Loopring L2 Private Key and retrieve the Loopring API Key.</p>
@@ -162,11 +162,14 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;LoopNetClient&gt; CreateLoopNetClientAsync(string l1PrivateKey, string ethAddress, bool showConnectionInfo = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;LoopNetClient&gt; CreateLoopNetClientAsync(int chainId, string l1PrivateKey, string ethAddress, bool showConnectionInfo = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>chainId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>1 for MAINNET, 5 for Test</p>
+</dd>
     <dt><code>l1PrivateKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The L1 Private Key</p>
 </dd>
@@ -199,7 +202,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_Dispose" data-uid="LoopNet.Services.LoopNetClient.Dispose">
   Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
@@ -226,7 +229,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetAccountInformationAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetAccountInformationAsync(System.String)">
   GetAccountInformationAsync(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets account information</p>
@@ -271,7 +274,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetCounterFactualNftTokenAddressAsync_LoopNet_Models_Requests_CounterFactualNftInfo_" data-uid="LoopNet.Services.LoopNetClient.GetCounterFactualNftTokenAddressAsync(LoopNet.Models.Requests.CounterFactualNftInfo)">
   GetCounterFactualNftTokenAddressAsync(CounterFactualNftInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L551"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L571"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the counterfactual nft token address</p>
@@ -312,11 +315,50 @@
 
 
 
+  <a id="LoopNet_Services_LoopNetClient_GetExchangeTokensAsync_" data-uid="LoopNet.Services.LoopNetClient.GetExchangeTokensAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetExchangeTokensAsync" data-uid="LoopNet.Services.LoopNetClient.GetExchangeTokensAsync">
+  GetExchangeTokensAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L1008"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the exchange tokens</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;List&lt;ExchangeTokenResponse&gt;?&gt; GetExchangeTokensAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="LoopNet.Models.Responses.ExchangeTokenResponse.html">ExchangeTokenResponse</a>&gt;&gt;</dt>
+    <dd><p>The exchange tokens</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API</p>
+</dd>
+  </dl>
+
+
+
   <a id="LoopNet_Services_LoopNetClient_GetMarketsAsync_" data-uid="LoopNet.Services.LoopNetClient.GetMarketsAsync*"></a>
 
   <h3 id="LoopNet_Services_LoopNetClient_GetMarketsAsync" data-uid="LoopNet.Services.LoopNetClient.GetMarketsAsync">
   GetMarketsAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the markets</p>
@@ -355,7 +397,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetNftCollectionInfoAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetNftCollectionInfoAsync(System.String)">
   GetNftCollectionInfoAsync(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L691"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L711"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets information on an nft collection</p>
@@ -400,7 +442,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetNftHoldersAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetNftHoldersAsync(System.String)">
   GetNftHoldersAsync(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L948"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L968"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the nft holders for a given nftData</p>
@@ -445,7 +487,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetNftTokenIdAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetNftTokenIdAsync(System.String)">
   GetNftTokenIdAsync(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L711"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L731"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the NFT balance info</p>
@@ -490,7 +532,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetNftWalletBalanceAsync_System_Nullable_System_Int32__" data-uid="LoopNet.Services.LoopNetClient.GetNftWalletBalanceAsync(System.Nullable{System.Int32})">
   GetNftWalletBalanceAsync(int?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L901"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L921"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the nft balance of a wallet</p>
@@ -535,7 +577,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetOffchainFeeAsync_System_Int32_System_String_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeAsync(System.Int32,System.String,System.String)">
   GetOffchainFeeAsync(int, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L223"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets offchain fee</p>
@@ -586,7 +628,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetOffchainFeeNftAsync_System_Int32_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeNftAsync(System.Int32,System.String)">
   GetOffchainFeeNftAsync(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L513"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L533"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the offchain fee for an nft request</p>
@@ -634,7 +676,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetOffchainFeeNftTransferAsync_System_Int32_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetOffchainFeeNftTransferAsync(System.Int32,System.String)">
   GetOffchainFeeNftTransferAsync(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L532"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L552"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the offchain fee for an nft transfer request</p>
@@ -678,11 +720,56 @@
 
 
 
+  <a id="LoopNet_Services_LoopNetClient_GetOrderUserRateAmountAsync_" data-uid="LoopNet.Services.LoopNetClient.GetOrderUserRateAmountAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_GetOrderUserRateAmountAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetOrderUserRateAmountAsync(System.String)">
+  GetOrderUserRateAmountAsync(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L1023"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the order user rate amounts</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;OrderUserRateAmountResponse?&gt; GetOrderUserRateAmountAsync(string market)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>market</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The market, ie LRC-ETH</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.OrderUserRateAmountResponse.html">OrderUserRateAmountResponse</a>&gt;</dt>
+    <dd><p>The order user rate amounts</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API</p>
+</dd>
+  </dl>
+
+
+
   <a id="LoopNet_Services_LoopNetClient_GetStorageIdAsync_" data-uid="LoopNet.Services.LoopNetClient.GetStorageIdAsync*"></a>
 
   <h3 id="LoopNet_Services_LoopNetClient_GetStorageIdAsync_System_Int32_" data-uid="LoopNet.Services.LoopNetClient.GetStorageIdAsync(System.Int32)">
   GetStorageIdAsync(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L205"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets storage id</p>
@@ -727,7 +814,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetTickersAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetTickersAsync(System.String)">
   GetTickersAsync(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets tickers.</p>
@@ -772,7 +859,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetWalletCounterFactualInfoAsync_System_Int32_" data-uid="LoopNet.Services.LoopNetClient.GetWalletCounterFactualInfoAsync(System.Int32)">
   GetWalletCounterFactualInfoAsync(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L885"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L905"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the counterfactual info for a wallet</p>
@@ -814,7 +901,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_GetWalletTypeAsync_System_String_" data-uid="LoopNet.Services.LoopNetClient.GetWalletTypeAsync(System.String)">
   GetWalletTypeAsync(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the wallet type</p>
@@ -859,7 +946,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_PostLegacyMintNft_System_String_System_Int32_System_Int32_System_String_System_String_" data-uid="LoopNet.Services.LoopNetClient.PostLegacyMintNft(System.String,System.Int32,System.Int32,System.String,System.String)">
   PostLegacyMintNft(string, int, int, string, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L421"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Post the nft mint to the legacy nft factory contract</p>
@@ -916,7 +1003,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_PostNftMintAsync_System_String_System_String_System_Int32_System_Int32_System_String_System_String_" data-uid="LoopNet.Services.LoopNetClient.PostNftMintAsync(System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
   PostNftMintAsync(string, string, int, int, string, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L571"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L591"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Post the nft mint to the current nft factory contract</p>
@@ -976,7 +1063,7 @@
 
   <h3 id="LoopNet_Services_LoopNetClient_PostNftTransferAsync_System_String_System_String_System_Int32_System_String_System_String_System_Boolean_" data-uid="LoopNet.Services.LoopNetClient.PostNftTransferAsync(System.String,System.String,System.Int32,System.String,System.String,System.Boolean)">
   PostNftTransferAsync(string, string, int, string, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L730"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L750"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Transfers a nft to an address</p>
@@ -1032,11 +1119,89 @@
 
 
 
+  <a id="LoopNet_Services_LoopNetClient_PostOrderAsync_" data-uid="LoopNet.Services.LoopNetClient.PostOrderAsync*"></a>
+
+  <h3 id="LoopNet_Services_LoopNetClient_PostOrderAsync_LoopNet_Models_Requests_Token_LoopNet_Models_Requests_Token_System_Boolean_System_Boolean_System_Int32_System_Int32_System_String_System_Nullable_LoopNet_Models_Requests_OrderType__System_Nullable_LoopNet_Models_Requests_TradeChannel__System_String_System_String_System_String_" data-uid="LoopNet.Services.LoopNetClient.PostOrderAsync(LoopNet.Models.Requests.Token,LoopNet.Models.Requests.Token,System.Boolean,System.Boolean,System.Int32,System.Int32,System.String,System.Nullable{LoopNet.Models.Requests.OrderType},System.Nullable{LoopNet.Models.Requests.TradeChannel},System.String,System.String,System.String)">
+  PostOrderAsync(Token, Token, bool, bool, int, int, string?, OrderType?, TradeChannel?, string?, string?, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L1040"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Post an order to exchange two currencies</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;OrderResponse?&gt; PostOrderAsync(Token sellToken, Token buyToken, bool allOrNone, bool fillAmountBOrS, int validUntil, int maxFeeBips = 20, string? clientOrderId = null, OrderType? orderType = null, TradeChannel? tradeChannel = null, string? taker = null, string? poolAddress = null, string? affiliate = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sellToken</code> <a class="xref" href="LoopNet.Models.Requests.Token.html">Token</a></dt>
+    <dd><p>The token you are selling</p>
+</dd>
+    <dt><code>buyToken</code> <a class="xref" href="LoopNet.Models.Requests.Token.html">Token</a></dt>
+    <dd><p>The token you are buying</p>
+</dd>
+    <dt><code>allOrNone</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the order supports partial fills or not.Currently only supports false as a valid value</p>
+</dd>
+    <dt><code>fillAmountBOrS</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Fill size by buy token or by sell token</p>
+</dd>
+    <dt><code>validUntil</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Order expiration time, accuracy is in seconds</p>
+</dd>
+    <dt><code>maxFeeBips</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum order fee that the user can accept, value range (in ten thousandths) 1 ~ 63</p>
+</dd>
+    <dt><code>clientOrderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>An arbitrary, client-set unique order identifier, max length is 120 bytes</p>
+</dd>
+    <dt><code>orderType</code> <a class="xref" href="LoopNet.Models.Requests.OrderType.html">OrderType</a>?</dt>
+    <dd><p>Order types, can be AMM, LIMIT_ORDER, MAKER_ONLY, TAKER_ONLY</p>
+</dd>
+    <dt><code>tradeChannel</code> <a class="xref" href="LoopNet.Models.Requests.TradeChannel.html">TradeChannel</a>?</dt>
+    <dd><p>Order channel, can be BLANK,ORDER_BOOK, AMM_POOL, MIXED</p>
+</dd>
+    <dt><code>taker</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Used by the P2P order which user specify the taker, so far its 0x0000000000000000000000000000000000000000</p>
+</dd>
+    <dt><code>poolAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The AMM pool address if order type is AMM</p>
+</dd>
+    <dt><code>affiliate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>An accountID who will recieve a share of the fee of this order</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LoopNet.Models.Responses.OrderResponse.html">OrderResponse</a>&gt;</dt>
+    <dd><p>The order response</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown when there is an issue with the Loopring API, such as an invalid order</p>
+</dd>
+  </dl>
+
+
+
   <a id="LoopNet_Services_LoopNetClient_PostTokenTransferAsync_" data-uid="LoopNet.Services.LoopNetClient.PostTokenTransferAsync*"></a>
 
   <h3 id="LoopNet_Services_LoopNetClient_PostTokenTransferAsync_System_String_System_String_System_Decimal_System_String_System_String_System_Boolean_" data-uid="LoopNet.Services.LoopNetClient.PostTokenTransferAsync(System.String,System.String,System.Decimal,System.String,System.String,System.Boolean)">
   PostTokenTransferAsync(string, string, decimal, string, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Services/LoopNetClient.cs/#L243"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Transfers a token to an address</p>

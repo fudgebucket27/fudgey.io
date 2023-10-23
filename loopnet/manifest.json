@@ -55,10 +55,40 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.OrderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.OrderType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Requests.Token.yml",
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Requests.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.TradeChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.TradeChannel.html"
         }
       },
       "version": ""
@@ -95,10 +125,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.Amount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.Amount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.ApiKeyResponse.yml",
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.ApiKeyResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.BaseOrderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.BaseOrderInfo.html"
         }
       },
       "version": ""
@@ -185,10 +235,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.ExchangeTokenResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.ExchangeTokenResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.Extra.yml",
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.Extra.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.GasAmounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.GasAmounts.html"
         }
       },
       "version": ""
@@ -209,6 +279,16 @@
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.ImageSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.LuckyTokenAmounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.LuckyTokenAmounts.html"
         }
       },
       "version": ""
@@ -315,6 +395,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.OrderAmounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.OrderAmounts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.OrderResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.OrderResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.OrderUserRateAmountResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.OrderUserRateAmountResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.Pending.yml",
       "output": {
         ".html": {
@@ -409,6 +519,16 @@
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Responses.TransferTokenResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.UserOrderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.UserOrderInfo.html"
         }
       },
       "version": ""
