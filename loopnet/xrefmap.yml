@@ -527,6 +527,50 @@ references:
   commentId: T:LoopNet.Models.Requests.Token
   fullName: LoopNet.Models.Requests.Token
   nameWithType: Token
+- uid: LoopNet.Models.Requests.Token.#ctor
+  name: Token()
+  href: api/LoopNet.Models.Requests.Token.html#LoopNet_Models_Requests_Token__ctor
+  commentId: M:LoopNet.Models.Requests.Token.#ctor
+  name.vb: New()
+  fullName: LoopNet.Models.Requests.Token.Token()
+  fullName.vb: LoopNet.Models.Requests.Token.New()
+  nameWithType: Token.Token()
+  nameWithType.vb: Token.New()
+- uid: LoopNet.Models.Requests.Token.#ctor(System.Int32,System.Decimal,System.Int32)
+  name: Token(int, decimal, int)
+  href: api/LoopNet.Models.Requests.Token.html#LoopNet_Models_Requests_Token__ctor_System_Int32_System_Decimal_System_Int32_
+  commentId: M:LoopNet.Models.Requests.Token.#ctor(System.Int32,System.Decimal,System.Int32)
+  name.vb: New(Integer, Decimal, Integer)
+  fullName: LoopNet.Models.Requests.Token.Token(int, decimal, int)
+  fullName.vb: LoopNet.Models.Requests.Token.New(Integer, Decimal, Integer)
+  nameWithType: Token.Token(int, decimal, int)
+  nameWithType.vb: Token.New(Integer, Decimal, Integer)
+- uid: LoopNet.Models.Requests.Token.#ctor*
+  name: Token
+  href: api/LoopNet.Models.Requests.Token.html#LoopNet_Models_Requests_Token__ctor_
+  commentId: Overload:LoopNet.Models.Requests.Token.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: LoopNet.Models.Requests.Token.Token
+  fullName.vb: LoopNet.Models.Requests.Token.New
+  nameWithType: Token.Token
+  nameWithType.vb: Token.New
+- uid: LoopNet.Models.Requests.Token.CalculateTokenVolume(System.Decimal,System.Int32)
+  name: CalculateTokenVolume(decimal, int)
+  href: api/LoopNet.Models.Requests.Token.html#LoopNet_Models_Requests_Token_CalculateTokenVolume_System_Decimal_System_Int32_
+  commentId: M:LoopNet.Models.Requests.Token.CalculateTokenVolume(System.Decimal,System.Int32)
+  name.vb: CalculateTokenVolume(Decimal, Integer)
+  fullName: LoopNet.Models.Requests.Token.CalculateTokenVolume(decimal, int)
+  fullName.vb: LoopNet.Models.Requests.Token.CalculateTokenVolume(Decimal, Integer)
+  nameWithType: Token.CalculateTokenVolume(decimal, int)
+  nameWithType.vb: Token.CalculateTokenVolume(Decimal, Integer)
+- uid: LoopNet.Models.Requests.Token.CalculateTokenVolume*
+  name: CalculateTokenVolume
+  href: api/LoopNet.Models.Requests.Token.html#LoopNet_Models_Requests_Token_CalculateTokenVolume_
+  commentId: Overload:LoopNet.Models.Requests.Token.CalculateTokenVolume
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.Token.CalculateTokenVolume
+  nameWithType: Token.CalculateTokenVolume
 - uid: LoopNet.Models.Requests.Token.TokenId
   name: TokenId
   href: api/LoopNet.Models.Requests.Token.html#LoopNet_Models_Requests_Token_TokenId

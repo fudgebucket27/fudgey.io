@@ -631,6 +631,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/tradeToken.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/tradeToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {

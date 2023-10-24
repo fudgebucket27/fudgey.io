@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Introduction </title>
+      <title>Trade Token </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Introduction ">
+      <meta name="title" content="Trade Token ">
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -15,7 +15,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/fudgebucket27/docfx_project/blob/main/articles/intro.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/fudgebucket27/docfx_project/blob/main/articles/tradeToken.md/#L1">
   </head>
 
   <script type="module">
@@ -72,13 +72,31 @@
         </div>
 
         <article data-uid="">
-<h1 id="introduction">Introduction</h1>
+<h1 id="trade-token">Trade Token</h1>
 
-<p>Click on an article on the left hand side to get started...</p>
+<p>Trading tokens on Loopring use LoopNet is easy. The sample code shows how to trade 0.03852 ETH to 368 LRC on the Loopring Test Network.</p>
+<pre><code class="lang-csharp">var loopNetClient = await LoopNetClient.CreateLoopNetClientAsync(5, l1PrivateKey, ethAddress, true); //create LoopNetClient
+var tokens = await loopNetClient.GetExchangeTokensAsync(); //get exchange tokens
+var lrcToken = tokens!.Where(x =&gt; x.Symbol == &quot;LRC&quot;).First(); //get the lrc exchange token
+var ethToken = tokens!.Where(x =&gt; x.Symbol == &quot;ETH&quot;).First(); //get the eth exchange token
+var ethSellToken = new Token(tokenId: ethToken.TokenId, amount: 0.03852m, decimals: ethToken.Decimals); //create a new trade Token for 0.038252 ETH
+var lrcBuyToken = new Token(tokenId: lrcToken.TokenId, amount: 368m, decimals: lrcToken.Decimals); //create a new trade Token 368 LRC
+var tradeResult = await loopNetClient.PostOrderAsync(
+        sellToken: ethSellToken, //the token to sell
+        buyToken: lrcBuyToken, //the token to buy
+        allOrNone: false, //if partial fills for order are enabled. only false is supported for now by the Loopring API
+        fillAmountBOrS: false, //whether to fill by buy or sell token
+        validUntil: 1800000000, // Unix timestamp for order expiry..
+        maxFeeBips: 63, //maximum order fee
+        clientOrderId: null, //arbitrary client set uniqiue order identifier
+        orderType: OrderType.TAKER_ONLY,
+        tradeChannel: TradeChannel.MIXED
+    );
+</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/fudgebucket27/docfx_project/blob/main/articles/intro.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/fudgebucket27/docfx_project/blob/main/articles/tradeToken.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

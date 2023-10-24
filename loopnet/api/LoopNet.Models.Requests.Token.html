@@ -79,7 +79,7 @@
 
   <h1 id="LoopNet_Models_Requests_Token" data-uid="LoopNet.Models.Requests.Token" class="text-break">
     Class Token
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -138,6 +138,75 @@
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LoopNet_Models_Requests_Token__ctor_" data-uid="LoopNet.Models.Requests.Token.#ctor*"></a>
+
+  <h3 id="LoopNet_Models_Requests_Token__ctor" data-uid="LoopNet.Models.Requests.Token.#ctor">
+  Token()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LoopNet_Models_Requests_Token__ctor_" data-uid="LoopNet.Models.Requests.Token.#ctor*"></a>
+
+  <h3 id="LoopNet_Models_Requests_Token__ctor_System_Int32_System_Decimal_System_Int32_" data-uid="LoopNet.Models.Requests.Token.#ctor(System.Int32,System.Decimal,System.Int32)">
+  Token(int, decimal, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a token</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Token(int tokenId, decimal amount, int decimals)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tokenId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The tokenId on Loopring</p>
+</dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>The amount of the token</p>
+</dd>
+    <dt><code>decimals</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The amount of decimals</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -146,7 +215,7 @@
 
   <h3 id="LoopNet_Models_Requests_Token_TokenId" data-uid="LoopNet.Models.Requests.Token.TokenId">
   TokenId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -178,7 +247,7 @@ public int TokenId { get; set; }</code></pre>
 
   <h3 id="LoopNet_Models_Requests_Token_Volume" data-uid="LoopNet.Models.Requests.Token.Volume">
   Volume
-  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -206,11 +275,62 @@ public string? Volume { get; set; }</code></pre>
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LoopNet_Models_Requests_Token_CalculateTokenVolume_" data-uid="LoopNet.Models.Requests.Token.CalculateTokenVolume*"></a>
+
+  <h3 id="LoopNet_Models_Requests_Token_CalculateTokenVolume_System_Decimal_System_Int32_" data-uid="LoopNet.Models.Requests.Token.CalculateTokenVolume(System.Decimal,System.Int32)">
+  CalculateTokenVolume(decimal, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the token volume string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CalculateTokenVolume(decimal value, int decimals)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>The decimal amount of the token</p>
+</dd>
+    <dt><code>decimals</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The amount of decimals</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
+    <dd><p>Thrown when the decimals is negative integer</p>
+</dd>
+  </dl>
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/fudgebucket27/docfx_project/blob/main/src/LoopNet/Models/Requests/Token.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
         
