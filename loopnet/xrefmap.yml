@@ -115,6 +115,18 @@ references:
   commentId: F:LoopNet.Models.Helpers.LoopNetConstantsHelper.PostOrderApiEndpoint
   fullName: LoopNet.Models.Helpers.LoopNetConstantsHelper.PostOrderApiEndpoint
   nameWithType: LoopNetConstantsHelper.PostOrderApiEndpoint
+- uid: LoopNet.Models.Helpers.LoopNetConstantsHelper.PostRedPacketEndpoint
+  name: PostRedPacketEndpoint
+  href: api/LoopNet.Models.Helpers.LoopNetConstantsHelper.html#LoopNet_Models_Helpers_LoopNetConstantsHelper_PostRedPacketEndpoint
+  commentId: F:LoopNet.Models.Helpers.LoopNetConstantsHelper.PostRedPacketEndpoint
+  fullName: LoopNet.Models.Helpers.LoopNetConstantsHelper.PostRedPacketEndpoint
+  nameWithType: LoopNetConstantsHelper.PostRedPacketEndpoint
+- uid: LoopNet.Models.Helpers.LoopNetConstantsHelper.PostRedPacketTargetApiEndpoint
+  name: PostRedPacketTargetApiEndpoint
+  href: api/LoopNet.Models.Helpers.LoopNetConstantsHelper.html#LoopNet_Models_Helpers_LoopNetConstantsHelper_PostRedPacketTargetApiEndpoint
+  commentId: F:LoopNet.Models.Helpers.LoopNetConstantsHelper.PostRedPacketTargetApiEndpoint
+  fullName: LoopNet.Models.Helpers.LoopNetConstantsHelper.PostRedPacketTargetApiEndpoint
+  nameWithType: LoopNetConstantsHelper.PostRedPacketTargetApiEndpoint
 - uid: LoopNet.Models.Helpers.LoopNetConstantsHelper.PostTokenTransferApiEndpoint
   name: PostTokenTransferApiEndpoint
   href: api/LoopNet.Models.Helpers.LoopNetConstantsHelper.html#LoopNet_Models_Helpers_LoopNetConstantsHelper_PostTokenTransferApiEndpoint
@@ -207,6 +219,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Models.Helpers.LoopNetUtils.ParseHexUnsigned
   nameWithType: LoopNetUtils.ParseHexUnsigned
+- uid: LoopNet.Models.Helpers.LoopNetUtils.UrlEncodeUpperCase(System.String)
+  name: UrlEncodeUpperCase(string)
+  href: api/LoopNet.Models.Helpers.LoopNetUtils.html#LoopNet_Models_Helpers_LoopNetUtils_UrlEncodeUpperCase_System_String_
+  commentId: M:LoopNet.Models.Helpers.LoopNetUtils.UrlEncodeUpperCase(System.String)
+  name.vb: UrlEncodeUpperCase(String)
+  fullName: LoopNet.Models.Helpers.LoopNetUtils.UrlEncodeUpperCase(string)
+  fullName.vb: LoopNet.Models.Helpers.LoopNetUtils.UrlEncodeUpperCase(String)
+  nameWithType: LoopNetUtils.UrlEncodeUpperCase(string)
+  nameWithType.vb: LoopNetUtils.UrlEncodeUpperCase(String)
+- uid: LoopNet.Models.Helpers.LoopNetUtils.UrlEncodeUpperCase*
+  name: UrlEncodeUpperCase
+  href: api/LoopNet.Models.Helpers.LoopNetUtils.html#LoopNet_Models_Helpers_LoopNetUtils_UrlEncodeUpperCase_
+  commentId: Overload:LoopNet.Models.Helpers.LoopNetUtils.UrlEncodeUpperCase
+  isSpec: "True"
+  fullName: LoopNet.Models.Helpers.LoopNetUtils.UrlEncodeUpperCase
+  nameWithType: LoopNetUtils.UrlEncodeUpperCase
 - uid: LoopNet.Models.Requests
   name: LoopNet.Models.Requests
   href: api/LoopNet.Models.Requests.html
@@ -277,6 +305,181 @@ references:
   isSpec: "True"
   fullName: LoopNet.Models.Requests.CounterFactualNftInfo.NftOwner
   nameWithType: CounterFactualNftInfo.NftOwner
+- uid: LoopNet.Models.Requests.LuckyToken
+  name: LuckyToken
+  href: api/LoopNet.Models.Requests.LuckyToken.html
+  commentId: T:LoopNet.Models.Requests.LuckyToken
+  fullName: LoopNet.Models.Requests.LuckyToken
+  nameWithType: LuckyToken
+- uid: LoopNet.Models.Requests.LuckyToken.Amount
+  name: Amount
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_Amount
+  commentId: P:LoopNet.Models.Requests.LuckyToken.Amount
+  fullName: LoopNet.Models.Requests.LuckyToken.Amount
+  nameWithType: LuckyToken.Amount
+- uid: LoopNet.Models.Requests.LuckyToken.Amount*
+  name: Amount
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_Amount_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.Amount
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.Amount
+  nameWithType: LuckyToken.Amount
+- uid: LoopNet.Models.Requests.LuckyToken.EddsaSig
+  name: EddsaSig
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_EddsaSig
+  commentId: P:LoopNet.Models.Requests.LuckyToken.EddsaSig
+  fullName: LoopNet.Models.Requests.LuckyToken.EddsaSig
+  nameWithType: LuckyToken.EddsaSig
+- uid: LoopNet.Models.Requests.LuckyToken.EddsaSig*
+  name: EddsaSig
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_EddsaSig_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.EddsaSig
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.EddsaSig
+  nameWithType: LuckyToken.EddsaSig
+- uid: LoopNet.Models.Requests.LuckyToken.Exchange
+  name: Exchange
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_Exchange
+  commentId: P:LoopNet.Models.Requests.LuckyToken.Exchange
+  fullName: LoopNet.Models.Requests.LuckyToken.Exchange
+  nameWithType: LuckyToken.Exchange
+- uid: LoopNet.Models.Requests.LuckyToken.Exchange*
+  name: Exchange
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_Exchange_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.Exchange
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.Exchange
+  nameWithType: LuckyToken.Exchange
+- uid: LoopNet.Models.Requests.LuckyToken.FeeToken
+  name: FeeToken
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_FeeToken
+  commentId: P:LoopNet.Models.Requests.LuckyToken.FeeToken
+  fullName: LoopNet.Models.Requests.LuckyToken.FeeToken
+  nameWithType: LuckyToken.FeeToken
+- uid: LoopNet.Models.Requests.LuckyToken.FeeToken*
+  name: FeeToken
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_FeeToken_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.FeeToken
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.FeeToken
+  nameWithType: LuckyToken.FeeToken
+- uid: LoopNet.Models.Requests.LuckyToken.MaxFeeAmount
+  name: MaxFeeAmount
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_MaxFeeAmount
+  commentId: P:LoopNet.Models.Requests.LuckyToken.MaxFeeAmount
+  fullName: LoopNet.Models.Requests.LuckyToken.MaxFeeAmount
+  nameWithType: LuckyToken.MaxFeeAmount
+- uid: LoopNet.Models.Requests.LuckyToken.MaxFeeAmount*
+  name: MaxFeeAmount
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_MaxFeeAmount_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.MaxFeeAmount
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.MaxFeeAmount
+  nameWithType: LuckyToken.MaxFeeAmount
+- uid: LoopNet.Models.Requests.LuckyToken.Memo
+  name: Memo
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_Memo
+  commentId: P:LoopNet.Models.Requests.LuckyToken.Memo
+  fullName: LoopNet.Models.Requests.LuckyToken.Memo
+  nameWithType: LuckyToken.Memo
+- uid: LoopNet.Models.Requests.LuckyToken.Memo*
+  name: Memo
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_Memo_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.Memo
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.Memo
+  nameWithType: LuckyToken.Memo
+- uid: LoopNet.Models.Requests.LuckyToken.PayeeAddr
+  name: PayeeAddr
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_PayeeAddr
+  commentId: P:LoopNet.Models.Requests.LuckyToken.PayeeAddr
+  fullName: LoopNet.Models.Requests.LuckyToken.PayeeAddr
+  nameWithType: LuckyToken.PayeeAddr
+- uid: LoopNet.Models.Requests.LuckyToken.PayeeAddr*
+  name: PayeeAddr
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_PayeeAddr_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.PayeeAddr
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.PayeeAddr
+  nameWithType: LuckyToken.PayeeAddr
+- uid: LoopNet.Models.Requests.LuckyToken.PayeeId
+  name: PayeeId
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_PayeeId
+  commentId: P:LoopNet.Models.Requests.LuckyToken.PayeeId
+  fullName: LoopNet.Models.Requests.LuckyToken.PayeeId
+  nameWithType: LuckyToken.PayeeId
+- uid: LoopNet.Models.Requests.LuckyToken.PayeeId*
+  name: PayeeId
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_PayeeId_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.PayeeId
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.PayeeId
+  nameWithType: LuckyToken.PayeeId
+- uid: LoopNet.Models.Requests.LuckyToken.PayerAddr
+  name: PayerAddr
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_PayerAddr
+  commentId: P:LoopNet.Models.Requests.LuckyToken.PayerAddr
+  fullName: LoopNet.Models.Requests.LuckyToken.PayerAddr
+  nameWithType: LuckyToken.PayerAddr
+- uid: LoopNet.Models.Requests.LuckyToken.PayerAddr*
+  name: PayerAddr
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_PayerAddr_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.PayerAddr
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.PayerAddr
+  nameWithType: LuckyToken.PayerAddr
+- uid: LoopNet.Models.Requests.LuckyToken.PayerId
+  name: PayerId
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_PayerId
+  commentId: P:LoopNet.Models.Requests.LuckyToken.PayerId
+  fullName: LoopNet.Models.Requests.LuckyToken.PayerId
+  nameWithType: LuckyToken.PayerId
+- uid: LoopNet.Models.Requests.LuckyToken.PayerId*
+  name: PayerId
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_PayerId_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.PayerId
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.PayerId
+  nameWithType: LuckyToken.PayerId
+- uid: LoopNet.Models.Requests.LuckyToken.StorageId
+  name: StorageId
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_StorageId
+  commentId: P:LoopNet.Models.Requests.LuckyToken.StorageId
+  fullName: LoopNet.Models.Requests.LuckyToken.StorageId
+  nameWithType: LuckyToken.StorageId
+- uid: LoopNet.Models.Requests.LuckyToken.StorageId*
+  name: StorageId
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_StorageId_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.StorageId
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.StorageId
+  nameWithType: LuckyToken.StorageId
+- uid: LoopNet.Models.Requests.LuckyToken.Token
+  name: Token
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_Token
+  commentId: P:LoopNet.Models.Requests.LuckyToken.Token
+  fullName: LoopNet.Models.Requests.LuckyToken.Token
+  nameWithType: LuckyToken.Token
+- uid: LoopNet.Models.Requests.LuckyToken.Token*
+  name: Token
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_Token_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.Token
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.Token
+  nameWithType: LuckyToken.Token
+- uid: LoopNet.Models.Requests.LuckyToken.ValidUntil
+  name: ValidUntil
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_ValidUntil
+  commentId: P:LoopNet.Models.Requests.LuckyToken.ValidUntil
+  fullName: LoopNet.Models.Requests.LuckyToken.ValidUntil
+  nameWithType: LuckyToken.ValidUntil
+- uid: LoopNet.Models.Requests.LuckyToken.ValidUntil*
+  name: ValidUntil
+  href: api/LoopNet.Models.Requests.LuckyToken.html#LoopNet_Models_Requests_LuckyToken_ValidUntil_
+  commentId: Overload:LoopNet.Models.Requests.LuckyToken.ValidUntil
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.LuckyToken.ValidUntil
+  nameWithType: LuckyToken.ValidUntil
 - uid: LoopNet.Models.Requests.Order
   name: Order
   href: api/LoopNet.Models.Requests.Order.html
@@ -521,6 +724,266 @@ references:
   commentId: F:LoopNet.Models.Requests.OrderType.TAKER_ONLY
   fullName: LoopNet.Models.Requests.OrderType.TAKER_ONLY
   nameWithType: OrderType.TAKER_ONLY
+- uid: LoopNet.Models.Requests.RedPacket
+  name: RedPacket
+  href: api/LoopNet.Models.Requests.RedPacket.html
+  commentId: T:LoopNet.Models.Requests.RedPacket
+  fullName: LoopNet.Models.Requests.RedPacket
+  nameWithType: RedPacket
+- uid: LoopNet.Models.Requests.RedPacket.EcdsaSignature
+  name: EcdsaSignature
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_EcdsaSignature
+  commentId: P:LoopNet.Models.Requests.RedPacket.EcdsaSignature
+  fullName: LoopNet.Models.Requests.RedPacket.EcdsaSignature
+  nameWithType: RedPacket.EcdsaSignature
+- uid: LoopNet.Models.Requests.RedPacket.EcdsaSignature*
+  name: EcdsaSignature
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_EcdsaSignature_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.EcdsaSignature
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.EcdsaSignature
+  nameWithType: RedPacket.EcdsaSignature
+- uid: LoopNet.Models.Requests.RedPacket.GiftNumbers
+  name: GiftNumbers
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_GiftNumbers
+  commentId: P:LoopNet.Models.Requests.RedPacket.GiftNumbers
+  fullName: LoopNet.Models.Requests.RedPacket.GiftNumbers
+  nameWithType: RedPacket.GiftNumbers
+- uid: LoopNet.Models.Requests.RedPacket.GiftNumbers*
+  name: GiftNumbers
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_GiftNumbers_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.GiftNumbers
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.GiftNumbers
+  nameWithType: RedPacket.GiftNumbers
+- uid: LoopNet.Models.Requests.RedPacket.LuckyToken
+  name: LuckyToken
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_LuckyToken
+  commentId: P:LoopNet.Models.Requests.RedPacket.LuckyToken
+  fullName: LoopNet.Models.Requests.RedPacket.LuckyToken
+  nameWithType: RedPacket.LuckyToken
+- uid: LoopNet.Models.Requests.RedPacket.LuckyToken*
+  name: LuckyToken
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_LuckyToken_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.LuckyToken
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.LuckyToken
+  nameWithType: RedPacket.LuckyToken
+- uid: LoopNet.Models.Requests.RedPacket.Memo
+  name: Memo
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_Memo
+  commentId: P:LoopNet.Models.Requests.RedPacket.Memo
+  fullName: LoopNet.Models.Requests.RedPacket.Memo
+  nameWithType: RedPacket.Memo
+- uid: LoopNet.Models.Requests.RedPacket.Memo*
+  name: Memo
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_Memo_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.Memo
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.Memo
+  nameWithType: RedPacket.Memo
+- uid: LoopNet.Models.Requests.RedPacket.NftData
+  name: NftData
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_NftData
+  commentId: P:LoopNet.Models.Requests.RedPacket.NftData
+  fullName: LoopNet.Models.Requests.RedPacket.NftData
+  nameWithType: RedPacket.NftData
+- uid: LoopNet.Models.Requests.RedPacket.NftData*
+  name: NftData
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_NftData_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.NftData
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.NftData
+  nameWithType: RedPacket.NftData
+- uid: LoopNet.Models.Requests.RedPacket.Numbers
+  name: Numbers
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_Numbers
+  commentId: P:LoopNet.Models.Requests.RedPacket.Numbers
+  fullName: LoopNet.Models.Requests.RedPacket.Numbers
+  nameWithType: RedPacket.Numbers
+- uid: LoopNet.Models.Requests.RedPacket.Numbers*
+  name: Numbers
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_Numbers_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.Numbers
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.Numbers
+  nameWithType: RedPacket.Numbers
+- uid: LoopNet.Models.Requests.RedPacket.SignerFlag
+  name: SignerFlag
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_SignerFlag
+  commentId: P:LoopNet.Models.Requests.RedPacket.SignerFlag
+  fullName: LoopNet.Models.Requests.RedPacket.SignerFlag
+  nameWithType: RedPacket.SignerFlag
+- uid: LoopNet.Models.Requests.RedPacket.SignerFlag*
+  name: SignerFlag
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_SignerFlag_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.SignerFlag
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.SignerFlag
+  nameWithType: RedPacket.SignerFlag
+- uid: LoopNet.Models.Requests.RedPacket.TemplateId
+  name: TemplateId
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_TemplateId
+  commentId: P:LoopNet.Models.Requests.RedPacket.TemplateId
+  fullName: LoopNet.Models.Requests.RedPacket.TemplateId
+  nameWithType: RedPacket.TemplateId
+- uid: LoopNet.Models.Requests.RedPacket.TemplateId*
+  name: TemplateId
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_TemplateId_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.TemplateId
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.TemplateId
+  nameWithType: RedPacket.TemplateId
+- uid: LoopNet.Models.Requests.RedPacket.Type
+  name: Type
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_Type
+  commentId: P:LoopNet.Models.Requests.RedPacket.Type
+  fullName: LoopNet.Models.Requests.RedPacket.Type
+  nameWithType: RedPacket.Type
+- uid: LoopNet.Models.Requests.RedPacket.Type*
+  name: Type
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_Type_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.Type
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.Type
+  nameWithType: RedPacket.Type
+- uid: LoopNet.Models.Requests.RedPacket.ValidSince
+  name: ValidSince
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_ValidSince
+  commentId: P:LoopNet.Models.Requests.RedPacket.ValidSince
+  fullName: LoopNet.Models.Requests.RedPacket.ValidSince
+  nameWithType: RedPacket.ValidSince
+- uid: LoopNet.Models.Requests.RedPacket.ValidSince*
+  name: ValidSince
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_ValidSince_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.ValidSince
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.ValidSince
+  nameWithType: RedPacket.ValidSince
+- uid: LoopNet.Models.Requests.RedPacket.ValidUntil
+  name: ValidUntil
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_ValidUntil
+  commentId: P:LoopNet.Models.Requests.RedPacket.ValidUntil
+  fullName: LoopNet.Models.Requests.RedPacket.ValidUntil
+  nameWithType: RedPacket.ValidUntil
+- uid: LoopNet.Models.Requests.RedPacket.ValidUntil*
+  name: ValidUntil
+  href: api/LoopNet.Models.Requests.RedPacket.html#LoopNet_Models_Requests_RedPacket_ValidUntil_
+  commentId: Overload:LoopNet.Models.Requests.RedPacket.ValidUntil
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacket.ValidUntil
+  nameWithType: RedPacket.ValidUntil
+- uid: LoopNet.Models.Requests.RedPacketAmountType
+  name: RedPacketAmountType
+  href: api/LoopNet.Models.Requests.RedPacketAmountType.html
+  commentId: T:LoopNet.Models.Requests.RedPacketAmountType
+  fullName: LoopNet.Models.Requests.RedPacketAmountType
+  nameWithType: RedPacketAmountType
+- uid: LoopNet.Models.Requests.RedPacketAmountType.AVERAGE
+  name: AVERAGE
+  href: api/LoopNet.Models.Requests.RedPacketAmountType.html#LoopNet_Models_Requests_RedPacketAmountType_AVERAGE
+  commentId: F:LoopNet.Models.Requests.RedPacketAmountType.AVERAGE
+  fullName: LoopNet.Models.Requests.RedPacketAmountType.AVERAGE
+  nameWithType: RedPacketAmountType.AVERAGE
+- uid: LoopNet.Models.Requests.RedPacketAmountType.RANDOM
+  name: RANDOM
+  href: api/LoopNet.Models.Requests.RedPacketAmountType.html#LoopNet_Models_Requests_RedPacketAmountType_RANDOM
+  commentId: F:LoopNet.Models.Requests.RedPacketAmountType.RANDOM
+  fullName: LoopNet.Models.Requests.RedPacketAmountType.RANDOM
+  nameWithType: RedPacketAmountType.RANDOM
+- uid: LoopNet.Models.Requests.RedPacketTarget
+  name: RedPacketTarget
+  href: api/LoopNet.Models.Requests.RedPacketTarget.html
+  commentId: T:LoopNet.Models.Requests.RedPacketTarget
+  fullName: LoopNet.Models.Requests.RedPacketTarget
+  nameWithType: RedPacketTarget
+- uid: LoopNet.Models.Requests.RedPacketTarget.Claimer
+  name: Claimer
+  href: api/LoopNet.Models.Requests.RedPacketTarget.html#LoopNet_Models_Requests_RedPacketTarget_Claimer
+  commentId: P:LoopNet.Models.Requests.RedPacketTarget.Claimer
+  fullName: LoopNet.Models.Requests.RedPacketTarget.Claimer
+  nameWithType: RedPacketTarget.Claimer
+- uid: LoopNet.Models.Requests.RedPacketTarget.Claimer*
+  name: Claimer
+  href: api/LoopNet.Models.Requests.RedPacketTarget.html#LoopNet_Models_Requests_RedPacketTarget_Claimer_
+  commentId: Overload:LoopNet.Models.Requests.RedPacketTarget.Claimer
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacketTarget.Claimer
+  nameWithType: RedPacketTarget.Claimer
+- uid: LoopNet.Models.Requests.RedPacketTarget.Hash
+  name: Hash
+  href: api/LoopNet.Models.Requests.RedPacketTarget.html#LoopNet_Models_Requests_RedPacketTarget_Hash
+  commentId: P:LoopNet.Models.Requests.RedPacketTarget.Hash
+  fullName: LoopNet.Models.Requests.RedPacketTarget.Hash
+  nameWithType: RedPacketTarget.Hash
+- uid: LoopNet.Models.Requests.RedPacketTarget.Hash*
+  name: Hash
+  href: api/LoopNet.Models.Requests.RedPacketTarget.html#LoopNet_Models_Requests_RedPacketTarget_Hash_
+  commentId: Overload:LoopNet.Models.Requests.RedPacketTarget.Hash
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacketTarget.Hash
+  nameWithType: RedPacketTarget.Hash
+- uid: LoopNet.Models.Requests.RedPacketTarget.NotifyType
+  name: NotifyType
+  href: api/LoopNet.Models.Requests.RedPacketTarget.html#LoopNet_Models_Requests_RedPacketTarget_NotifyType
+  commentId: P:LoopNet.Models.Requests.RedPacketTarget.NotifyType
+  fullName: LoopNet.Models.Requests.RedPacketTarget.NotifyType
+  nameWithType: RedPacketTarget.NotifyType
+- uid: LoopNet.Models.Requests.RedPacketTarget.NotifyType*
+  name: NotifyType
+  href: api/LoopNet.Models.Requests.RedPacketTarget.html#LoopNet_Models_Requests_RedPacketTarget_NotifyType_
+  commentId: Overload:LoopNet.Models.Requests.RedPacketTarget.NotifyType
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.RedPacketTarget.NotifyType
+  nameWithType: RedPacketTarget.NotifyType
+- uid: LoopNet.Models.Requests.RedPacketType
+  name: RedPacketType
+  href: api/LoopNet.Models.Requests.RedPacketType.html
+  commentId: T:LoopNet.Models.Requests.RedPacketType
+  fullName: LoopNet.Models.Requests.RedPacketType
+  nameWithType: RedPacketType
+- uid: LoopNet.Models.Requests.RedPacketType.Blind_Box
+  name: Blind_Box
+  href: api/LoopNet.Models.Requests.RedPacketType.html#LoopNet_Models_Requests_RedPacketType_Blind_Box
+  commentId: F:LoopNet.Models.Requests.RedPacketType.Blind_Box
+  fullName: LoopNet.Models.Requests.RedPacketType.Blind_Box
+  nameWithType: RedPacketType.Blind_Box
+- uid: LoopNet.Models.Requests.RedPacketType.Common
+  name: Common
+  href: api/LoopNet.Models.Requests.RedPacketType.html#LoopNet_Models_Requests_RedPacketType_Common
+  commentId: F:LoopNet.Models.Requests.RedPacketType.Common
+  fullName: LoopNet.Models.Requests.RedPacketType.Common
+  nameWithType: RedPacketType.Common
+- uid: LoopNet.Models.Requests.RedPacketType.Relay
+  name: Relay
+  href: api/LoopNet.Models.Requests.RedPacketType.html#LoopNet_Models_Requests_RedPacketType_Relay
+  commentId: F:LoopNet.Models.Requests.RedPacketType.Relay
+  fullName: LoopNet.Models.Requests.RedPacketType.Relay
+  nameWithType: RedPacketType.Relay
+- uid: LoopNet.Models.Requests.RedPacketViewType
+  name: RedPacketViewType
+  href: api/LoopNet.Models.Requests.RedPacketViewType.html
+  commentId: T:LoopNet.Models.Requests.RedPacketViewType
+  fullName: LoopNet.Models.Requests.RedPacketViewType
+  nameWithType: RedPacketViewType
+- uid: LoopNet.Models.Requests.RedPacketViewType.PRIVATE
+  name: PRIVATE
+  href: api/LoopNet.Models.Requests.RedPacketViewType.html#LoopNet_Models_Requests_RedPacketViewType_PRIVATE
+  commentId: F:LoopNet.Models.Requests.RedPacketViewType.PRIVATE
+  fullName: LoopNet.Models.Requests.RedPacketViewType.PRIVATE
+  nameWithType: RedPacketViewType.PRIVATE
+- uid: LoopNet.Models.Requests.RedPacketViewType.PUBLIC
+  name: PUBLIC
+  href: api/LoopNet.Models.Requests.RedPacketViewType.html#LoopNet_Models_Requests_RedPacketViewType_PUBLIC
+  commentId: F:LoopNet.Models.Requests.RedPacketViewType.PUBLIC
+  fullName: LoopNet.Models.Requests.RedPacketViewType.PUBLIC
+  nameWithType: RedPacketViewType.PUBLIC
+- uid: LoopNet.Models.Requests.RedPacketViewType.TARGET
+  name: TARGET
+  href: api/LoopNet.Models.Requests.RedPacketViewType.html#LoopNet_Models_Requests_RedPacketViewType_TARGET
+  commentId: F:LoopNet.Models.Requests.RedPacketViewType.TARGET
+  fullName: LoopNet.Models.Requests.RedPacketViewType.TARGET
+  nameWithType: RedPacketViewType.TARGET
 - uid: LoopNet.Models.Requests.Token
   name: Token
   href: api/LoopNet.Models.Requests.Token.html
@@ -776,6 +1239,51 @@ references:
   isSpec: "True"
   fullName: LoopNet.Models.Requests.TransferTokenRequest.ValidUntil
   nameWithType: TransferTokenRequest.ValidUntil
+- uid: LoopNet.Models.Requests.Type
+  name: Type
+  href: api/LoopNet.Models.Requests.Type.html
+  commentId: T:LoopNet.Models.Requests.Type
+  fullName: LoopNet.Models.Requests.Type
+  nameWithType: Type
+- uid: LoopNet.Models.Requests.Type.Mode
+  name: Mode
+  href: api/LoopNet.Models.Requests.Type.html#LoopNet_Models_Requests_Type_Mode
+  commentId: P:LoopNet.Models.Requests.Type.Mode
+  fullName: LoopNet.Models.Requests.Type.Mode
+  nameWithType: Type.Mode
+- uid: LoopNet.Models.Requests.Type.Mode*
+  name: Mode
+  href: api/LoopNet.Models.Requests.Type.html#LoopNet_Models_Requests_Type_Mode_
+  commentId: Overload:LoopNet.Models.Requests.Type.Mode
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.Type.Mode
+  nameWithType: Type.Mode
+- uid: LoopNet.Models.Requests.Type.Partition
+  name: Partition
+  href: api/LoopNet.Models.Requests.Type.html#LoopNet_Models_Requests_Type_Partition
+  commentId: P:LoopNet.Models.Requests.Type.Partition
+  fullName: LoopNet.Models.Requests.Type.Partition
+  nameWithType: Type.Partition
+- uid: LoopNet.Models.Requests.Type.Partition*
+  name: Partition
+  href: api/LoopNet.Models.Requests.Type.html#LoopNet_Models_Requests_Type_Partition_
+  commentId: Overload:LoopNet.Models.Requests.Type.Partition
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.Type.Partition
+  nameWithType: Type.Partition
+- uid: LoopNet.Models.Requests.Type.Scope
+  name: Scope
+  href: api/LoopNet.Models.Requests.Type.html#LoopNet_Models_Requests_Type_Scope
+  commentId: P:LoopNet.Models.Requests.Type.Scope
+  fullName: LoopNet.Models.Requests.Type.Scope
+  nameWithType: Type.Scope
+- uid: LoopNet.Models.Requests.Type.Scope*
+  name: Scope
+  href: api/LoopNet.Models.Requests.Type.html#LoopNet_Models_Requests_Type_Scope_
+  commentId: Overload:LoopNet.Models.Requests.Type.Scope
+  isSpec: "True"
+  fullName: LoopNet.Models.Requests.Type.Scope
+  nameWithType: Type.Scope
 - uid: LoopNet.Models.Responses
   name: LoopNet.Models.Responses
   href: api/LoopNet.Models.Responses.html
@@ -3585,6 +4093,103 @@ references:
   isSpec: "True"
   fullName: LoopNet.Models.Responses.PublicKey.Y
   nameWithType: PublicKey.Y
+- uid: LoopNet.Models.Responses.RedPacketMintResponse
+  name: RedPacketMintResponse
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html
+  commentId: T:LoopNet.Models.Responses.RedPacketMintResponse
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse
+  nameWithType: RedPacketMintResponse
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.AccountId
+  name: AccountId
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_AccountId
+  commentId: P:LoopNet.Models.Responses.RedPacketMintResponse.AccountId
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.AccountId
+  nameWithType: RedPacketMintResponse.AccountId
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.AccountId*
+  name: AccountId
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_AccountId_
+  commentId: Overload:LoopNet.Models.Responses.RedPacketMintResponse.AccountId
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.AccountId
+  nameWithType: RedPacketMintResponse.AccountId
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.Hash
+  name: Hash
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_Hash
+  commentId: P:LoopNet.Models.Responses.RedPacketMintResponse.Hash
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.Hash
+  nameWithType: RedPacketMintResponse.Hash
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.Hash*
+  name: Hash
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_Hash_
+  commentId: Overload:LoopNet.Models.Responses.RedPacketMintResponse.Hash
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.Hash
+  nameWithType: RedPacketMintResponse.Hash
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.IsIdempotent
+  name: IsIdempotent
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_IsIdempotent
+  commentId: P:LoopNet.Models.Responses.RedPacketMintResponse.IsIdempotent
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.IsIdempotent
+  nameWithType: RedPacketMintResponse.IsIdempotent
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.IsIdempotent*
+  name: IsIdempotent
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_IsIdempotent_
+  commentId: Overload:LoopNet.Models.Responses.RedPacketMintResponse.IsIdempotent
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.IsIdempotent
+  nameWithType: RedPacketMintResponse.IsIdempotent
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.NftData
+  name: NftData
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_NftData
+  commentId: P:LoopNet.Models.Responses.RedPacketMintResponse.NftData
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.NftData
+  nameWithType: RedPacketMintResponse.NftData
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.NftData*
+  name: NftData
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_NftData_
+  commentId: Overload:LoopNet.Models.Responses.RedPacketMintResponse.NftData
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.NftData
+  nameWithType: RedPacketMintResponse.NftData
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.Status
+  name: Status
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_Status
+  commentId: P:LoopNet.Models.Responses.RedPacketMintResponse.Status
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.Status
+  nameWithType: RedPacketMintResponse.Status
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.Status*
+  name: Status
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_Status_
+  commentId: Overload:LoopNet.Models.Responses.RedPacketMintResponse.Status
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.Status
+  nameWithType: RedPacketMintResponse.Status
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.StorageId
+  name: StorageId
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_StorageId
+  commentId: P:LoopNet.Models.Responses.RedPacketMintResponse.StorageId
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.StorageId
+  nameWithType: RedPacketMintResponse.StorageId
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.StorageId*
+  name: StorageId
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_StorageId_
+  commentId: Overload:LoopNet.Models.Responses.RedPacketMintResponse.StorageId
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.StorageId
+  nameWithType: RedPacketMintResponse.StorageId
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.TokenId
+  name: TokenId
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_TokenId
+  commentId: P:LoopNet.Models.Responses.RedPacketMintResponse.TokenId
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.TokenId
+  nameWithType: RedPacketMintResponse.TokenId
+- uid: LoopNet.Models.Responses.RedPacketMintResponse.TokenId*
+  name: TokenId
+  href: api/LoopNet.Models.Responses.RedPacketMintResponse.html#LoopNet_Models_Responses_RedPacketMintResponse_TokenId_
+  commentId: Overload:LoopNet.Models.Responses.RedPacketMintResponse.TokenId
+  isSpec: "True"
+  fullName: LoopNet.Models.Responses.RedPacketMintResponse.TokenId
+  nameWithType: RedPacketMintResponse.TokenId
 - uid: LoopNet.Models.Responses.ResultInfo
   name: ResultInfo
   href: api/LoopNet.Models.Responses.ResultInfo.html
@@ -3960,6 +4565,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.ILoopNetClient.GetNftHoldersAsync
   nameWithType: ILoopNetClient.GetNftHoldersAsync
+- uid: LoopNet.Services.ILoopNetClient.GetNftOffChainFeeWithAmountAsync(System.Int32,System.Int32,System.String)
+  name: GetNftOffChainFeeWithAmountAsync(int, int, string)
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_GetNftOffChainFeeWithAmountAsync_System_Int32_System_Int32_System_String_
+  commentId: M:LoopNet.Services.ILoopNetClient.GetNftOffChainFeeWithAmountAsync(System.Int32,System.Int32,System.String)
+  name.vb: GetNftOffChainFeeWithAmountAsync(Integer, Integer, String)
+  fullName: LoopNet.Services.ILoopNetClient.GetNftOffChainFeeWithAmountAsync(int, int, string)
+  fullName.vb: LoopNet.Services.ILoopNetClient.GetNftOffChainFeeWithAmountAsync(Integer, Integer, String)
+  nameWithType: ILoopNetClient.GetNftOffChainFeeWithAmountAsync(int, int, string)
+  nameWithType.vb: ILoopNetClient.GetNftOffChainFeeWithAmountAsync(Integer, Integer, String)
+- uid: LoopNet.Services.ILoopNetClient.GetNftOffChainFeeWithAmountAsync*
+  name: GetNftOffChainFeeWithAmountAsync
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_GetNftOffChainFeeWithAmountAsync_
+  commentId: Overload:LoopNet.Services.ILoopNetClient.GetNftOffChainFeeWithAmountAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.ILoopNetClient.GetNftOffChainFeeWithAmountAsync
+  nameWithType: ILoopNetClient.GetNftOffChainFeeWithAmountAsync
 - uid: LoopNet.Services.ILoopNetClient.GetNftTokenIdAsync(System.String)
   name: GetNftTokenIdAsync(string)
   href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_GetNftTokenIdAsync_System_String_
@@ -3992,6 +4613,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.ILoopNetClient.GetNftWalletBalanceAsync
   nameWithType: ILoopNetClient.GetNftWalletBalanceAsync
+- uid: LoopNet.Services.ILoopNetClient.GetOffChainFeeWithAmountAsync(System.Int32,System.Int32,System.Int32)
+  name: GetOffChainFeeWithAmountAsync(int, int, int)
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_GetOffChainFeeWithAmountAsync_System_Int32_System_Int32_System_Int32_
+  commentId: M:LoopNet.Services.ILoopNetClient.GetOffChainFeeWithAmountAsync(System.Int32,System.Int32,System.Int32)
+  name.vb: GetOffChainFeeWithAmountAsync(Integer, Integer, Integer)
+  fullName: LoopNet.Services.ILoopNetClient.GetOffChainFeeWithAmountAsync(int, int, int)
+  fullName.vb: LoopNet.Services.ILoopNetClient.GetOffChainFeeWithAmountAsync(Integer, Integer, Integer)
+  nameWithType: ILoopNetClient.GetOffChainFeeWithAmountAsync(int, int, int)
+  nameWithType.vb: ILoopNetClient.GetOffChainFeeWithAmountAsync(Integer, Integer, Integer)
+- uid: LoopNet.Services.ILoopNetClient.GetOffChainFeeWithAmountAsync*
+  name: GetOffChainFeeWithAmountAsync
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_GetOffChainFeeWithAmountAsync_
+  commentId: Overload:LoopNet.Services.ILoopNetClient.GetOffChainFeeWithAmountAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.ILoopNetClient.GetOffChainFeeWithAmountAsync
+  nameWithType: ILoopNetClient.GetOffChainFeeWithAmountAsync
 - uid: LoopNet.Services.ILoopNetClient.GetOffchainFeeAsync(System.Int32,System.String,System.String)
   name: GetOffchainFeeAsync(int, string, string)
   href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_GetOffchainFeeAsync_System_Int32_System_String_System_String_
@@ -4136,6 +4773,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.ILoopNetClient.PostLegacyMintNft
   nameWithType: ILoopNetClient.PostLegacyMintNft
+- uid: LoopNet.Services.ILoopNetClient.PostMintRedPacketAsync(System.Int64,System.Int64,LoopNet.Models.Requests.RedPacketType,LoopNet.Models.Requests.RedPacketViewType,LoopNet.Models.Requests.RedPacketAmountType,System.Int32,System.Decimal,System.Decimal,System.String,System.String,System.Nullable{System.Decimal})
+  name: PostMintRedPacketAsync(long, long, RedPacketType, RedPacketViewType, RedPacketAmountType, int, decimal, decimal, string, string, decimal?)
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostMintRedPacketAsync_System_Int64_System_Int64_LoopNet_Models_Requests_RedPacketType_LoopNet_Models_Requests_RedPacketViewType_LoopNet_Models_Requests_RedPacketAmountType_System_Int32_System_Decimal_System_Decimal_System_String_System_String_System_Nullable_System_Decimal__
+  commentId: M:LoopNet.Services.ILoopNetClient.PostMintRedPacketAsync(System.Int64,System.Int64,LoopNet.Models.Requests.RedPacketType,LoopNet.Models.Requests.RedPacketViewType,LoopNet.Models.Requests.RedPacketAmountType,System.Int32,System.Decimal,System.Decimal,System.String,System.String,System.Nullable{System.Decimal})
+  name.vb: PostMintRedPacketAsync(Long, Long, RedPacketType, RedPacketViewType, RedPacketAmountType, Integer, Decimal, Decimal, String, String, Decimal?)
+  fullName: LoopNet.Services.ILoopNetClient.PostMintRedPacketAsync(long, long, LoopNet.Models.Requests.RedPacketType, LoopNet.Models.Requests.RedPacketViewType, LoopNet.Models.Requests.RedPacketAmountType, int, decimal, decimal, string, string, decimal?)
+  fullName.vb: LoopNet.Services.ILoopNetClient.PostMintRedPacketAsync(Long, Long, LoopNet.Models.Requests.RedPacketType, LoopNet.Models.Requests.RedPacketViewType, LoopNet.Models.Requests.RedPacketAmountType, Integer, Decimal, Decimal, String, String, Decimal?)
+  nameWithType: ILoopNetClient.PostMintRedPacketAsync(long, long, RedPacketType, RedPacketViewType, RedPacketAmountType, int, decimal, decimal, string, string, decimal?)
+  nameWithType.vb: ILoopNetClient.PostMintRedPacketAsync(Long, Long, RedPacketType, RedPacketViewType, RedPacketAmountType, Integer, Decimal, Decimal, String, String, Decimal?)
+- uid: LoopNet.Services.ILoopNetClient.PostMintRedPacketAsync*
+  name: PostMintRedPacketAsync
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostMintRedPacketAsync_
+  commentId: Overload:LoopNet.Services.ILoopNetClient.PostMintRedPacketAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.ILoopNetClient.PostMintRedPacketAsync
+  nameWithType: ILoopNetClient.PostMintRedPacketAsync
 - uid: LoopNet.Services.ILoopNetClient.PostNftMintAsync(System.String,System.String,System.Int32,System.Int32,System.String,System.String)
   name: PostNftMintAsync(string, string, int, int, string, string?)
   href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostNftMintAsync_System_String_System_String_System_Int32_System_Int32_System_String_System_String_
@@ -4152,6 +4805,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.ILoopNetClient.PostNftMintAsync
   nameWithType: ILoopNetClient.PostNftMintAsync
+- uid: LoopNet.Services.ILoopNetClient.PostNftMintRedPacketAsync(System.Int64,System.Int64,LoopNet.Models.Requests.RedPacketType,LoopNet.Models.Requests.RedPacketViewType,LoopNet.Models.Requests.RedPacketAmountType,System.String,System.String,System.String,System.String,System.String,System.String)
+  name: PostNftMintRedPacketAsync(long, long, RedPacketType, RedPacketViewType, RedPacketAmountType, string, string, string, string, string, string?)
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostNftMintRedPacketAsync_System_Int64_System_Int64_LoopNet_Models_Requests_RedPacketType_LoopNet_Models_Requests_RedPacketViewType_LoopNet_Models_Requests_RedPacketAmountType_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:LoopNet.Services.ILoopNetClient.PostNftMintRedPacketAsync(System.Int64,System.Int64,LoopNet.Models.Requests.RedPacketType,LoopNet.Models.Requests.RedPacketViewType,LoopNet.Models.Requests.RedPacketAmountType,System.String,System.String,System.String,System.String,System.String,System.String)
+  name.vb: PostNftMintRedPacketAsync(Long, Long, RedPacketType, RedPacketViewType, RedPacketAmountType, String, String, String, String, String, String)
+  fullName: LoopNet.Services.ILoopNetClient.PostNftMintRedPacketAsync(long, long, LoopNet.Models.Requests.RedPacketType, LoopNet.Models.Requests.RedPacketViewType, LoopNet.Models.Requests.RedPacketAmountType, string, string, string, string, string, string?)
+  fullName.vb: LoopNet.Services.ILoopNetClient.PostNftMintRedPacketAsync(Long, Long, LoopNet.Models.Requests.RedPacketType, LoopNet.Models.Requests.RedPacketViewType, LoopNet.Models.Requests.RedPacketAmountType, String, String, String, String, String, String)
+  nameWithType: ILoopNetClient.PostNftMintRedPacketAsync(long, long, RedPacketType, RedPacketViewType, RedPacketAmountType, string, string, string, string, string, string?)
+  nameWithType.vb: ILoopNetClient.PostNftMintRedPacketAsync(Long, Long, RedPacketType, RedPacketViewType, RedPacketAmountType, String, String, String, String, String, String)
+- uid: LoopNet.Services.ILoopNetClient.PostNftMintRedPacketAsync*
+  name: PostNftMintRedPacketAsync
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostNftMintRedPacketAsync_
+  commentId: Overload:LoopNet.Services.ILoopNetClient.PostNftMintRedPacketAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.ILoopNetClient.PostNftMintRedPacketAsync
+  nameWithType: ILoopNetClient.PostNftMintRedPacketAsync
 - uid: LoopNet.Services.ILoopNetClient.PostNftTransferAsync(System.String,System.String,System.Int32,System.String,System.String,System.Boolean)
   name: PostNftTransferAsync(string, string, int, string, string, bool)
   href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostNftTransferAsync_System_String_System_String_System_Int32_System_String_System_String_System_Boolean_
@@ -4184,6 +4853,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.ILoopNetClient.PostOrderAsync
   nameWithType: ILoopNetClient.PostOrderAsync
+- uid: LoopNet.Services.ILoopNetClient.PostRedPacketTargetAsync(System.Collections.Generic.List{System.String},System.String,System.Int32)
+  name: PostRedPacketTargetAsync(List<string>, string, int)
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostRedPacketTargetAsync_System_Collections_Generic_List_System_String__System_String_System_Int32_
+  commentId: M:LoopNet.Services.ILoopNetClient.PostRedPacketTargetAsync(System.Collections.Generic.List{System.String},System.String,System.Int32)
+  name.vb: PostRedPacketTargetAsync(List(Of String), String, Integer)
+  fullName: LoopNet.Services.ILoopNetClient.PostRedPacketTargetAsync(System.Collections.Generic.List<string>, string, int)
+  fullName.vb: LoopNet.Services.ILoopNetClient.PostRedPacketTargetAsync(System.Collections.Generic.List(Of String), String, Integer)
+  nameWithType: ILoopNetClient.PostRedPacketTargetAsync(List<string>, string, int)
+  nameWithType.vb: ILoopNetClient.PostRedPacketTargetAsync(List(Of String), String, Integer)
+- uid: LoopNet.Services.ILoopNetClient.PostRedPacketTargetAsync*
+  name: PostRedPacketTargetAsync
+  href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostRedPacketTargetAsync_
+  commentId: Overload:LoopNet.Services.ILoopNetClient.PostRedPacketTargetAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.ILoopNetClient.PostRedPacketTargetAsync
+  nameWithType: ILoopNetClient.PostRedPacketTargetAsync
 - uid: LoopNet.Services.ILoopNetClient.PostTokenTransferAsync(System.String,System.String,System.Decimal,System.String,System.String,System.Boolean)
   name: PostTokenTransferAsync(string, string, decimal, string, string, bool)
   href: api/LoopNet.Services.ILoopNetClient.html#LoopNet_Services_ILoopNetClient_PostTokenTransferAsync_System_String_System_String_System_Decimal_System_String_System_String_System_Boolean_
@@ -4322,6 +5007,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.LoopNetClient.GetNftHoldersAsync
   nameWithType: LoopNetClient.GetNftHoldersAsync
+- uid: LoopNet.Services.LoopNetClient.GetNftOffChainFeeWithAmountAsync(System.Int32,System.Int32,System.String)
+  name: GetNftOffChainFeeWithAmountAsync(int, int, string)
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_GetNftOffChainFeeWithAmountAsync_System_Int32_System_Int32_System_String_
+  commentId: M:LoopNet.Services.LoopNetClient.GetNftOffChainFeeWithAmountAsync(System.Int32,System.Int32,System.String)
+  name.vb: GetNftOffChainFeeWithAmountAsync(Integer, Integer, String)
+  fullName: LoopNet.Services.LoopNetClient.GetNftOffChainFeeWithAmountAsync(int, int, string)
+  fullName.vb: LoopNet.Services.LoopNetClient.GetNftOffChainFeeWithAmountAsync(Integer, Integer, String)
+  nameWithType: LoopNetClient.GetNftOffChainFeeWithAmountAsync(int, int, string)
+  nameWithType.vb: LoopNetClient.GetNftOffChainFeeWithAmountAsync(Integer, Integer, String)
+- uid: LoopNet.Services.LoopNetClient.GetNftOffChainFeeWithAmountAsync*
+  name: GetNftOffChainFeeWithAmountAsync
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_GetNftOffChainFeeWithAmountAsync_
+  commentId: Overload:LoopNet.Services.LoopNetClient.GetNftOffChainFeeWithAmountAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.LoopNetClient.GetNftOffChainFeeWithAmountAsync
+  nameWithType: LoopNetClient.GetNftOffChainFeeWithAmountAsync
 - uid: LoopNet.Services.LoopNetClient.GetNftTokenIdAsync(System.String)
   name: GetNftTokenIdAsync(string)
   href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_GetNftTokenIdAsync_System_String_
@@ -4354,6 +5055,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.LoopNetClient.GetNftWalletBalanceAsync
   nameWithType: LoopNetClient.GetNftWalletBalanceAsync
+- uid: LoopNet.Services.LoopNetClient.GetOffChainFeeWithAmountAsync(System.Int32,System.Int32,System.Int32)
+  name: GetOffChainFeeWithAmountAsync(int, int, int)
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_GetOffChainFeeWithAmountAsync_System_Int32_System_Int32_System_Int32_
+  commentId: M:LoopNet.Services.LoopNetClient.GetOffChainFeeWithAmountAsync(System.Int32,System.Int32,System.Int32)
+  name.vb: GetOffChainFeeWithAmountAsync(Integer, Integer, Integer)
+  fullName: LoopNet.Services.LoopNetClient.GetOffChainFeeWithAmountAsync(int, int, int)
+  fullName.vb: LoopNet.Services.LoopNetClient.GetOffChainFeeWithAmountAsync(Integer, Integer, Integer)
+  nameWithType: LoopNetClient.GetOffChainFeeWithAmountAsync(int, int, int)
+  nameWithType.vb: LoopNetClient.GetOffChainFeeWithAmountAsync(Integer, Integer, Integer)
+- uid: LoopNet.Services.LoopNetClient.GetOffChainFeeWithAmountAsync*
+  name: GetOffChainFeeWithAmountAsync
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_GetOffChainFeeWithAmountAsync_
+  commentId: Overload:LoopNet.Services.LoopNetClient.GetOffChainFeeWithAmountAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.LoopNetClient.GetOffChainFeeWithAmountAsync
+  nameWithType: LoopNetClient.GetOffChainFeeWithAmountAsync
 - uid: LoopNet.Services.LoopNetClient.GetOffchainFeeAsync(System.Int32,System.String,System.String)
   name: GetOffchainFeeAsync(int, string, string)
   href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_GetOffchainFeeAsync_System_Int32_System_String_System_String_
@@ -4498,6 +5215,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.LoopNetClient.PostLegacyMintNft
   nameWithType: LoopNetClient.PostLegacyMintNft
+- uid: LoopNet.Services.LoopNetClient.PostMintRedPacketAsync(System.Int64,System.Int64,LoopNet.Models.Requests.RedPacketType,LoopNet.Models.Requests.RedPacketViewType,LoopNet.Models.Requests.RedPacketAmountType,System.Int32,System.Decimal,System.Decimal,System.String,System.String,System.Nullable{System.Decimal})
+  name: PostMintRedPacketAsync(long, long, RedPacketType, RedPacketViewType, RedPacketAmountType, int, decimal, decimal, string, string, decimal?)
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostMintRedPacketAsync_System_Int64_System_Int64_LoopNet_Models_Requests_RedPacketType_LoopNet_Models_Requests_RedPacketViewType_LoopNet_Models_Requests_RedPacketAmountType_System_Int32_System_Decimal_System_Decimal_System_String_System_String_System_Nullable_System_Decimal__
+  commentId: M:LoopNet.Services.LoopNetClient.PostMintRedPacketAsync(System.Int64,System.Int64,LoopNet.Models.Requests.RedPacketType,LoopNet.Models.Requests.RedPacketViewType,LoopNet.Models.Requests.RedPacketAmountType,System.Int32,System.Decimal,System.Decimal,System.String,System.String,System.Nullable{System.Decimal})
+  name.vb: PostMintRedPacketAsync(Long, Long, RedPacketType, RedPacketViewType, RedPacketAmountType, Integer, Decimal, Decimal, String, String, Decimal?)
+  fullName: LoopNet.Services.LoopNetClient.PostMintRedPacketAsync(long, long, LoopNet.Models.Requests.RedPacketType, LoopNet.Models.Requests.RedPacketViewType, LoopNet.Models.Requests.RedPacketAmountType, int, decimal, decimal, string, string, decimal?)
+  fullName.vb: LoopNet.Services.LoopNetClient.PostMintRedPacketAsync(Long, Long, LoopNet.Models.Requests.RedPacketType, LoopNet.Models.Requests.RedPacketViewType, LoopNet.Models.Requests.RedPacketAmountType, Integer, Decimal, Decimal, String, String, Decimal?)
+  nameWithType: LoopNetClient.PostMintRedPacketAsync(long, long, RedPacketType, RedPacketViewType, RedPacketAmountType, int, decimal, decimal, string, string, decimal?)
+  nameWithType.vb: LoopNetClient.PostMintRedPacketAsync(Long, Long, RedPacketType, RedPacketViewType, RedPacketAmountType, Integer, Decimal, Decimal, String, String, Decimal?)
+- uid: LoopNet.Services.LoopNetClient.PostMintRedPacketAsync*
+  name: PostMintRedPacketAsync
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostMintRedPacketAsync_
+  commentId: Overload:LoopNet.Services.LoopNetClient.PostMintRedPacketAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.LoopNetClient.PostMintRedPacketAsync
+  nameWithType: LoopNetClient.PostMintRedPacketAsync
 - uid: LoopNet.Services.LoopNetClient.PostNftMintAsync(System.String,System.String,System.Int32,System.Int32,System.String,System.String)
   name: PostNftMintAsync(string, string, int, int, string, string?)
   href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostNftMintAsync_System_String_System_String_System_Int32_System_Int32_System_String_System_String_
@@ -4514,6 +5247,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.LoopNetClient.PostNftMintAsync
   nameWithType: LoopNetClient.PostNftMintAsync
+- uid: LoopNet.Services.LoopNetClient.PostNftMintRedPacketAsync(System.Int64,System.Int64,LoopNet.Models.Requests.RedPacketType,LoopNet.Models.Requests.RedPacketViewType,LoopNet.Models.Requests.RedPacketAmountType,System.String,System.String,System.String,System.String,System.String,System.String)
+  name: PostNftMintRedPacketAsync(long, long, RedPacketType, RedPacketViewType, RedPacketAmountType, string, string, string, string, string, string?)
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostNftMintRedPacketAsync_System_Int64_System_Int64_LoopNet_Models_Requests_RedPacketType_LoopNet_Models_Requests_RedPacketViewType_LoopNet_Models_Requests_RedPacketAmountType_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:LoopNet.Services.LoopNetClient.PostNftMintRedPacketAsync(System.Int64,System.Int64,LoopNet.Models.Requests.RedPacketType,LoopNet.Models.Requests.RedPacketViewType,LoopNet.Models.Requests.RedPacketAmountType,System.String,System.String,System.String,System.String,System.String,System.String)
+  name.vb: PostNftMintRedPacketAsync(Long, Long, RedPacketType, RedPacketViewType, RedPacketAmountType, String, String, String, String, String, String)
+  fullName: LoopNet.Services.LoopNetClient.PostNftMintRedPacketAsync(long, long, LoopNet.Models.Requests.RedPacketType, LoopNet.Models.Requests.RedPacketViewType, LoopNet.Models.Requests.RedPacketAmountType, string, string, string, string, string, string?)
+  fullName.vb: LoopNet.Services.LoopNetClient.PostNftMintRedPacketAsync(Long, Long, LoopNet.Models.Requests.RedPacketType, LoopNet.Models.Requests.RedPacketViewType, LoopNet.Models.Requests.RedPacketAmountType, String, String, String, String, String, String)
+  nameWithType: LoopNetClient.PostNftMintRedPacketAsync(long, long, RedPacketType, RedPacketViewType, RedPacketAmountType, string, string, string, string, string, string?)
+  nameWithType.vb: LoopNetClient.PostNftMintRedPacketAsync(Long, Long, RedPacketType, RedPacketViewType, RedPacketAmountType, String, String, String, String, String, String)
+- uid: LoopNet.Services.LoopNetClient.PostNftMintRedPacketAsync*
+  name: PostNftMintRedPacketAsync
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostNftMintRedPacketAsync_
+  commentId: Overload:LoopNet.Services.LoopNetClient.PostNftMintRedPacketAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.LoopNetClient.PostNftMintRedPacketAsync
+  nameWithType: LoopNetClient.PostNftMintRedPacketAsync
 - uid: LoopNet.Services.LoopNetClient.PostNftTransferAsync(System.String,System.String,System.Int32,System.String,System.String,System.Boolean)
   name: PostNftTransferAsync(string, string, int, string, string, bool)
   href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostNftTransferAsync_System_String_System_String_System_Int32_System_String_System_String_System_Boolean_
@@ -4546,6 +5295,22 @@ references:
   isSpec: "True"
   fullName: LoopNet.Services.LoopNetClient.PostOrderAsync
   nameWithType: LoopNetClient.PostOrderAsync
+- uid: LoopNet.Services.LoopNetClient.PostRedPacketTargetAsync(System.Collections.Generic.List{System.String},System.String,System.Int32)
+  name: PostRedPacketTargetAsync(List<string>, string, int)
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostRedPacketTargetAsync_System_Collections_Generic_List_System_String__System_String_System_Int32_
+  commentId: M:LoopNet.Services.LoopNetClient.PostRedPacketTargetAsync(System.Collections.Generic.List{System.String},System.String,System.Int32)
+  name.vb: PostRedPacketTargetAsync(List(Of String), String, Integer)
+  fullName: LoopNet.Services.LoopNetClient.PostRedPacketTargetAsync(System.Collections.Generic.List<string>, string, int)
+  fullName.vb: LoopNet.Services.LoopNetClient.PostRedPacketTargetAsync(System.Collections.Generic.List(Of String), String, Integer)
+  nameWithType: LoopNetClient.PostRedPacketTargetAsync(List<string>, string, int)
+  nameWithType.vb: LoopNetClient.PostRedPacketTargetAsync(List(Of String), String, Integer)
+- uid: LoopNet.Services.LoopNetClient.PostRedPacketTargetAsync*
+  name: PostRedPacketTargetAsync
+  href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostRedPacketTargetAsync_
+  commentId: Overload:LoopNet.Services.LoopNetClient.PostRedPacketTargetAsync
+  isSpec: "True"
+  fullName: LoopNet.Services.LoopNetClient.PostRedPacketTargetAsync
+  nameWithType: LoopNetClient.PostRedPacketTargetAsync
 - uid: LoopNet.Services.LoopNetClient.PostTokenTransferAsync(System.String,System.String,System.Decimal,System.String,System.String,System.Boolean)
   name: PostTokenTransferAsync(string, string, decimal, string, string, bool)
   href: api/LoopNet.Services.LoopNetClient.html#LoopNet_Services_LoopNetClient_PostTokenTransferAsync_System_String_System_String_System_Decimal_System_String_System_String_System_Boolean_

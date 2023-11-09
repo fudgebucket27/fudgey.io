@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Create Red Packet and Target </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Create Red Packet and Target ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fudgebucket27/docfx_project/blob/main/articles/createRedPacketTarget.md/#L1">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="create-red-packet-and-target">Create Red Packet and Target</h1>
+
+<p>Creating red packets and targeting on Loopring use LoopNet is easy. Follow the sample code below</p>
+<pre><code class="lang-csharp">//Setup client
+var loopNetClient = await LoopNetClient.CreateLoopNetClientAsync(1, l1PrivateKey, ethAddress, true);
+
+/// How to mint an Nft red packet and send it to a list of targets, 1 nft per packet, 2 packets
+var nftBalance = await loopNetClient.GetNftWalletBalanceAsync();
+var nft = nftBalance!.First().Value.NftData;
+var validSince = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+var validUntil = DateTimeOffset.UtcNow.AddDays(7).ToUnixTimeSeconds();
+var redpacketNftMintResponse = await loopNetClient.PostNftMintRedPacketAsync(validSince, validUntil, RedPacketType.Common, RedPacketViewType.TARGET, RedPacketAmountType.AVERAGE, nft!, &quot;1&quot;, &quot;2&quot;, &quot;test&quot;, &quot;LRC&quot;);
+Console.WriteLine(&quot;Nft red packet minted: &quot; + JsonConvert.SerializeObject(redpacketNftMintResponse, Formatting.Indented));
+var addressesToTarget = new List&lt;string&gt; { &quot;0x991B6fE54d46e5e0CEEd38911cD4a8694bed386A&quot;, &quot;0x37ea02537f3a7a7ffc221125245905be3d5423e6&quot; };
+var redpacketNftTargetResponse = await loopNetClient.PostRedPacketTargetAsync(addressesToTarget, redpacketNftMintResponse.Hash, 0);
+Console.WriteLine(&quot;Nft red packet sent to targets:&quot; + JsonConvert.SerializeObject(redpacketNftTargetResponse, Formatting.Indented));
+
+///How to mint a token red packet and send it to a list of targets, 1 lrc per packet, 2 packets
+var validSince = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+var validUntil = DateTimeOffset.UtcNow.AddDays(7).ToUnixTimeSeconds();
+var redpacketMintResponse = await loopNetClient.PostMintRedPacketAsync(validSince, validUntil, RedPacketType.Common, RedPacketViewType.TARGET, RedPacketAmountType.AVERAGE, 1, 1m, 2m, &quot;test token loopnet&quot;, &quot;LRC&quot;);
+Console.WriteLine(&quot;Token red packet minted: &quot; + JsonConvert.SerializeObject(redpacketMintResponse, Formatting.Indented));
+var addressesToTarget = new List&lt;string&gt; { &quot;0x991B6fE54d46e5e0CEEd38911cD4a8694bed386A&quot;, &quot;0x37ea02537f3a7a7ffc221125245905be3d5423e6&quot; };
+var redpacketTargetResponse = await loopNetClient.PostRedPacketTargetAsync(addressesToTarget, redpacketMintResponse.Hash, 0);
+Console.WriteLine(&quot;Token red packet sent to targets:&quot; + JsonConvert.SerializeObject(redpacketTargetResponse, Formatting.Indented));
+</code></pre>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fudgebucket27/docfx_project/blob/main/articles/createRedPacketTarget.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

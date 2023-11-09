@@ -55,6 +55,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.LuckyToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.LuckyToken.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Requests.Order.yml",
       "output": {
         ".html": {
@@ -69,6 +79,56 @@
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Requests.OrderType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.RedPacket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.RedPacket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.RedPacketAmountType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.RedPacketAmountType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.RedPacketTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.RedPacketTarget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.RedPacketType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.RedPacketType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.RedPacketViewType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.RedPacketViewType.html"
         }
       },
       "version": ""
@@ -99,6 +159,16 @@
       "output": {
         ".html": {
           "relative_path": "api/LoopNet.Models.Requests.TransferTokenRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Requests.Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Requests.Type.html"
         }
       },
       "version": ""
@@ -475,6 +545,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LoopNet.Models.Responses.RedPacketMintResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LoopNet.Models.Responses.RedPacketMintResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LoopNet.Models.Responses.ResultInfo.yml",
       "output": {
         ".html": {
@@ -602,6 +682,16 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/createRedPacketTarget.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/createRedPacketTarget.html"
         }
       },
       "version": ""
